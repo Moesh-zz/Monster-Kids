@@ -1,0 +1,28 @@
+{
+	"__comment": "Designed by Moesh with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "blocks/glowing_mushroom_wall",
+		"texture": "blocks/glowing_mushroom_wall",
+		"texture1": "blocks/glowing_mushroom_wall_cap"
+	},
+	"elements": [
+		{
+			"__comment": "PlaneX4",
+			"from": [ 3.5, 0.5, -0.5 ],
+			"to": [ 3.501, 16.5, 15.5 ],
+			"faces": {
+				"west": { "uv": [ 16, 0, 0, 16 ], "texture": "#texture1" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture1" }
+			}
+		},
+		{
+			"__comment": "PlaneZ6",
+			"from": [ -1, 0, 8 ],
+			"to": [ 15, 16, 8.001 ],
+			"faces": {
+				"north": { "uv": [ 16, 0, 0, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		}
+	]
+}

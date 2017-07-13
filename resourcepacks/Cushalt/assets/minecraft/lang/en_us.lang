@@ -1,0 +1,111 @@
+item.bootsIron.name=Monster Boots
+item.pickaxeIron.name=Digging Claw
+item.shield.name=Shield Claw
+mk.oreSamples.name=Fossilized Food
+item.fish.salmon.cooked.name=Fossilized Salmon
+item.muttonCooked.name=Fossilized Mutton
+item.potatoBaked.name=Fossilized Potato
+item.pumpkinPie.name=Fossilized Pie
+item.spiderEye.name=Fossilized Spider Eye
+item.chickenCooked.name=Cream of Diorite
+
+tile.glass.name=Scaffold
+tile.ladder.name=Stablizing Ladder
+tile.torch.name=Glowing Mushroom
+
+mk.header=--- Showing %s ---
+mk.header.gameInfo=game information
+mk.header.roundStart=game instructions
+mk.header.roundEnd=game debriefing
+
+mk.gameInfo.description=Monster Kids is a competitive caving game. Collect the most %s before the timer runs out to win! Run through a James NPC to refill your items, and to bank your %1$s for safe keeping. Press the [%s] button to use menu signs.
+
+
+mk.roundStart.countdown=Match will begin in %s seconds.
+mk.roundStart.fiveSeconds=>>> %s
+mk.roundStart.fiveSeconds.number=%s...
+
+mk.roundStart.title=Get the food!
+
+mk.roundStart.info=Collect the most %s to win!
+mk.roundStart.info.tip=Tip: Danger is everywhere, protect yourself at all times.
+.
+mk.oneMinuteRemains.title=60 seconds left!
+mk.roundEnd.countdown=Match will end in %s seconds.
+
+mk.roundEnd.title=Game end!
+mk.roundEnd.info=%s collected the most %s. They are the cutest Monster Kids this round!
+mk.roundEnd.result=Result: Not the Cutest Monster Kids Ever.
+
+mk.error.gameStartAborted=Match start aborted. %s
+mk.error.gameStart.noPlayers=No players have joined a team.
+mk.error.gameStart.missingItems=%s must select a set of items to dig with.
+
+mk.class.selected=%s selected the %s itemset
+mk.class.description=%s
+mk.class.elytra=Elytra
+mk.class.pearl=Ender Pearl
+mk.class.ladder=Ladders + TNT
+mk.class.human=Human
+
+mk.class.elytra.description=When banking or respawning, you will be given [Elytra], and [Fireworks] * 4.
+mk.class.pearl.description=When banking or respawning, you will be given [Ender Pearl] * 3.
+mk.class.ladder.description=When banking or respawning, you will be given [Ladder] * 16, [TNT] * 8, and [Flint and Steel]. Ladders will extend themselves upwards when you climb them. Holding the [Ladder] item will give you full Knockback Resistance.
+mk.class.human.description=When banking or respawning, you will given nothing. You're the worst.
+
+mk.items.refilled=Your items have been refilled!
+
+## SIGNS ##
+mk.team.join=%s joined %s
+mk.team.leave=%s left their team
+mk.team.blue=Blue
+mk.team.red=Red
+mk.team.green=Green
+mk.team.yellow=Yellow
+
+mk.joinTeam.blue1=
+mk.joinTeam.blue2=[Join/Leave]
+mk.joinTeam.blue3=Blue
+mk.joinTeam.blue4=
+
+mk.joinTeam.red1=
+mk.joinTeam.red2=[Join/Leave]
+mk.joinTeam.red3=Red
+mk.joinTeam.red4=
+
+mk.joinTeam.green1=
+mk.joinTeam.green2=[Join/Leave]
+mk.joinTeam.green3=Green
+mk.joinTeam.green4=
+
+mk.joinTeam.yellow1=
+mk.joinTeam.yellow2=[Join/Leave]
+mk.joinTeam.yellow3=Yellow
+mk.joinTeam.yellow4=
+
+mk.selectClass.elytra1=
+mk.selectClass.elytra2=[Select]
+mk.selectClass.elytra3=Elytra
+mk.selectClass.elytra4=
+
+mk.selectClass.pearl1=
+mk.selectClass.pearl2=[Select]
+mk.selectClass.pearl3=Ender Pearl
+mk.selectClass.pearl4=
+
+mk.selectClass.ladder1=
+mk.selectClass.ladder2=[Select]
+mk.selectClass.ladder3=Ladders + TNT
+mk.selectClass.ladder4=
+
+mk.selectClass.nothing1=
+mk.selectClass.nothing2=[Select]
+mk.selectClass.nothing3=Nothing
+mk.selectClass.nothing4=
+
+mk.sign.startRound1=
+mk.sign.startRound2=[Right Click]
+mk.sign.startRound3=Start Round
+mk.sign.startRound4=
+
+mk.streak=+%s (%s)

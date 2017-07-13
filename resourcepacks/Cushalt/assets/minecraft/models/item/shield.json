@@ -1,0 +1,36 @@
+{
+	"parent":"item/shield_blocking",
+	"display": {
+		"thirdperson_righthand": {
+			"translation":  [ -0.5, 0.5, -1 ]
+		},
+		"thirdperson_lefthand": {
+			"translation":  [ 0.5, 0.5, -1 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 77, 7, -12 ],
+			"translation":  [ -2.086, 6.9564, 3.4782 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 77, 7, -12 ],
+			"translation":  [ -2.086, 6.9564, 3.4782 ]
+		},
+		"gui": {
+			"rotation":  [ 58, -53, 9 ],
+			"translation":  [ 2.0869, 4.5, 0 ],
+			"scale":  [ 1.4, 1.4, 1.4 ]
+		},
+		"ground": {
+			"rotation":  [ 90, 0, 0 ],
+			"translation":  [ -0.695, 5.5652, 1.3913 ]
+		}
+	},
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "item/shield_blocking"
+        }
+    ]
+}

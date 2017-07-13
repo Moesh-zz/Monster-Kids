@@ -1,0 +1,44 @@
+{
+	"__comment": "Designed by Moesh with Cubik Studio - https://cubik.studio",
+	"parent": "block/cross",
+	"textures": {
+		"mushroom": "blocks/mob_spawner_flower",
+		"case": "blocks/mob_spawner_case",
+		"particle": "blocks/mob_spawner_case"
+	},
+	"elements": [
+		{
+			"__comment": "case",
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#case", "cullface": "down" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#case", "cullface": "up" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#case", "cullface": "north" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#case", "cullface": "south" },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#case", "cullface": "west" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#case", "cullface": "east" }
+			}
+		},
+		{
+			"__comment": "PlaneX3",
+			"from": [ 2.25, 0, 2.375 ],
+			"to": [ 2.251, 16, 18.375 ],
+			"rotation": { "origin": [ 2.25, 0, 2.375 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#mushroom" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#mushroom" }
+			}
+		},
+		{
+			"__comment": "PlaneX3",
+			"from": [ 2.375, 0, 13.624 ],
+			"to": [ 18.375, 16, 13.625 ],
+			"rotation": { "origin": [ 2.375, 0, 13.625 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#mushroom" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#mushroom" }
+			}
+		}
+	]
+}

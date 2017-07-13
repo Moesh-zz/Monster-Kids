@@ -1,0 +1,40 @@
+{
+  "block.stone.hit": {
+    "sounds": [
+      "dig/claw1",
+      "dig/claw2",
+      "dig/claw3",
+      "dig/claw4",
+      "dig/claw5",
+      "dig/claw6"
+    ],
+    "subtitle": "subtitles.block.generic.hit",
+    "replace": true 
+  },
+  "block.gravel.hit": {
+    "sounds": [
+      "dig/claw1",
+      "dig/claw2",
+      "dig/claw3",
+      "dig/claw4",
+      "dig/claw5",
+      "dig/claw6"
+    ],
+    "subtitle": "subtitles.block.generic.hit",
+    "replace": true
+  },
+  "mk.game.start": {
+    "type":"master",
+    "sounds": [
+      "game_start"
+    ],
+    "subtitle": "mk.game.start"
+  },
+  "mk.digital.click": {
+    "type":"master",
+    "sounds": [
+      "digital_click"
+    ],
+    "subtitle": "mk.digital.click"
+  }
+}

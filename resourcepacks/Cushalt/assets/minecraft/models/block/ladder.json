@@ -1,0 +1,108 @@
+{
+	"__comment": "Designed by @leMoesh with Cubik Studio - https://cubik.studio",
+	"parent": "block/block",
+	"textures": {
+		"ladder": "blocks/ladder",
+		"particle": "blocks/ladder"
+	},
+	"elements": [
+		{
+			"__comment": "side",
+			"from": [ 1, 0, 13 ],
+			"to": [ 4, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 6, 3.5, 7.5, 5 ], "texture": "#ladder", "cullface": "down" },
+				"up": { "uv": [ 6, 2, 7.5, 3.5 ], "texture": "#ladder", "cullface": "up" },
+				"north": { "uv": [ 0, 8, 1.5, 16 ], "texture": "#ladder" },
+				"south": { "uv": [ 0, 0, 1.5, 8 ], "texture": "#ladder", "cullface": "south" },
+				"west": { "uv": [ 1.5, 8, 3, 16 ], "texture": "#ladder" },
+				"east": { "uv": [ 1.5, 0, 3, 8 ], "texture": "#ladder" }
+			}
+		},
+		{
+			"__comment": "side",
+			"from": [ 12, 0, 13 ],
+			"to": [ 15, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 6, 6.5, 7.5, 8 ], "texture": "#ladder", "cullface": "down" },
+				"up": { "uv": [ 6, 5, 7.5, 6.5 ], "texture": "#ladder", "cullface": "up" },
+				"north": { "uv": [ 3, 8, 4.5, 16 ], "texture": "#ladder" },
+				"south": { "uv": [ 3, 0, 4.5, 8 ], "texture": "#ladder", "cullface": "south" },
+				"west": { "uv": [ 4.5, 8, 6, 16 ], "texture": "#ladder" },
+				"east": { "uv": [ 4.5, 0, 6, 8 ], "texture": "#ladder" }
+			}
+		},
+		{
+			"__comment": "rung",
+			"from": [ 4, 13, 13.5 ],
+			"to": [ 12, 15, 15.5 ],
+			"faces": {
+				"down": { "uv": [ 6, 13, 10, 14 ], "texture": "#ladder" },
+				"up": { "uv": [ 10, 13, 14, 14 ], "texture": "#ladder" },
+				"north": { "uv": [ 6, 12, 10, 13 ], "texture": "#ladder" },
+				"south": { "uv": [ 10, 15, 14, 16 ], "texture": "#ladder" }
+			}
+		},
+		{
+			"__comment": "rung1",
+			"from": [ 4, 1, 13.5 ],
+			"to": [ 12, 3, 15.5 ],
+			"faces": {
+				"down": { "uv": [ 6, 15, 10, 16 ], "texture": "#ladder" },
+				"up": { "uv": [ 10, 14, 14, 15 ], "texture": "#ladder" },
+				"north": { "uv": [ 6, 14, 10, 15 ], "texture": "#ladder" },
+				"south": { "uv": [ 10, 12, 14, 13 ], "texture": "#ladder" }
+			}
+		},
+		{
+			"__comment": "rung2",
+			"from": [ 4, 5, 13.5 ],
+			"to": [ 12, 7, 15.5 ],
+			"faces": {
+				"down": { "uv": [ 6, 11, 10, 12 ], "texture": "#ladder" },
+				"up": { "uv": [ 10, 11, 14, 12 ], "texture": "#ladder" },
+				"north": { "uv": [ 6, 10, 10, 11 ], "texture": "#ladder" },
+				"south": { "uv": [ 10, 10, 14, 11 ], "texture": "#ladder" }
+			}
+		},
+		{
+			"__comment": "rung3",
+			"from": [ 4, 9, 13.5 ],
+			"to": [ 12, 11, 15.5 ],
+			"faces": {
+				"down": { "uv": [ 6, 9, 10, 10 ], "texture": "#ladder" },
+				"up": { "uv": [ 10, 9, 14, 10 ], "texture": "#ladder" },
+				"north": { "uv": [ 6, 8, 10, 9 ], "texture": "#ladder" },
+				"south": { "uv": [ 10, 8, 14, 9 ], "texture": "#ladder" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 0 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 75, 45, 0 ],
+			"translation":  [ 0, 2.5, 0 ],
+			"scale":  [ 0.375, 0.375, 0.375 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 90, -25 ],
+			"translation":  [ 1.13, 3.2, 1.13 ],
+			"scale":  [ 0.68, 0.68, 0.68 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 90, -25 ],
+			"translation":  [ 1.13, 3.2, 1.13 ],
+			"scale":  [ 0.68, 0.68, 0.68 ]
+		},
+		"gui": {
+			"scale":  [ 0.75, 0.75, 0.75 ]
+		},
+		"fixed": {
+			"translation":  [ 0, 0, -11.13 ]
+		}
+	}
+}
