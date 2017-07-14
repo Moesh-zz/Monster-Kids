@@ -57,58 +57,34 @@ execute @a ~ ~ ~ scoreboard players operation @s holdingTotal += @s holdingPotat
 # CombineTeamScores
 scoreboard players set Coal scoreTotalBlue 0
 scoreboard players set Coal scoreTotalRed 0
-scoreboard players set Coal scoreTotalGreen 0
-scoreboard players set Coal scoreTotalYellow 0
 scoreboard players set Redstone scoreTotalBlue 0
 scoreboard players set Redstone scoreTotalRed 0
-scoreboard players set Redstone scoreTotalGreen 0
-scoreboard players set Redstone scoreTotalYellow 0
 scoreboard players set LapisLazuli scoreTotalBlue 0
 scoreboard players set LapisLazuli scoreTotalRed 0
-scoreboard players set LapisLazuli scoreTotalGreen 0
-scoreboard players set LapisLazuli scoreTotalYellow 0
 scoreboard players set Diamond scoreTotalBlue 0
 scoreboard players set Diamond scoreTotalRed 0
-scoreboard players set Diamond scoreTotalGreen 0
-scoreboard players set Diamond scoreTotalYellow 0
 scoreboard players set Emerald scoreTotalBlue 0
 scoreboard players set Emerald scoreTotalRed 0
-scoreboard players set Emerald scoreTotalGreen 0
-scoreboard players set Emerald scoreTotalYellow 0
 scoreboard players set Banked scoreTotalBlue 0
 scoreboard players set Banked scoreTotalRed 0
-scoreboard players set Banked scoreTotalGreen 0
-scoreboard players set Banked scoreTotalYellow 0
 
 execute @a[team=blue,score_health_min=1] ~ ~ ~ scoreboard players operation Coal scoreTotalBlue += @p holdingEye
 execute @a[team=red,score_health_min=1] ~ ~ ~ scoreboard players operation Coal scoreTotalRed += @p holdingEye
-execute @a[team=green,score_health_min=1] ~ ~ ~ scoreboard players operation Coal scoreTotalGreen += @p holdingEye
-execute @a[team=yellow,score_health_min=1] ~ ~ ~ scoreboard players operation Coal scoreTotalYellow += @p holdingEye
 
 execute @a[team=blue,score_health_min=1] ~ ~ ~ scoreboard players operation Redstone scoreTotalBlue += @p holdingMutton
 execute @a[team=red,score_health_min=1] ~ ~ ~ scoreboard players operation Redstone scoreTotalRed += @p holdingMutton
-execute @a[team=green,score_health_min=1] ~ ~ ~ scoreboard players operation Redstone scoreTotalGreen += @p holdingMutton
-execute @a[team=yellow,score_health_min=1] ~ ~ ~ scoreboard players operation Redstone scoreTotalYellow += @p holdingMutton
 
 execute @a[team=blue,score_health_min=1] ~ ~ ~ scoreboard players operation LapisLazuli scoreTotalBlue += @p holdingFish
 execute @a[team=red,score_health_min=1] ~ ~ ~ scoreboard players operation LapisLazuli scoreTotalRed += @p holdingFish
-execute @a[team=green,score_health_min=1] ~ ~ ~ scoreboard players operation LapisLazuli scoreTotalGreen += @p holdingFish
-execute @a[team=yellow,score_health_min=1] ~ ~ ~ scoreboard players operation LapisLazuli scoreTotalYellow += @p holdingFish
 
 execute @a[team=blue,score_health_min=1] ~ ~ ~ scoreboard players operation Diamond scoreTotalBlue += @p holdingPie
 execute @a[team=red,score_health_min=1] ~ ~ ~ scoreboard players operation Diamond scoreTotalRed += @p holdingPie
-execute @a[team=green,score_health_min=1] ~ ~ ~ scoreboard players operation Diamond scoreTotalGreen += @p holdingPie
-execute @a[team=yellow,score_health_min=1] ~ ~ ~ scoreboard players operation Diamond scoreTotalYellow += @p holdingPie
 
 execute @a[team=blue,score_health_min=1] ~ ~ ~ scoreboard players operation Emerald scoreTotalBlue += @p holdingPotato
 execute @a[team=red,score_health_min=1] ~ ~ ~ scoreboard players operation Emerald scoreTotalRed += @p holdingPotato
-execute @a[team=green,score_health_min=1] ~ ~ ~ scoreboard players operation Emerald scoreTotalGreen += @p holdingPotato
-execute @a[team=yellow,score_health_min=1] ~ ~ ~ scoreboard players operation Emerald scoreTotalYellow += @p holdingPotato
 
 scoreboard players operation Banked scoreTotalBlue += @a[team=blue] bankedTotal
 scoreboard players operation Banked scoreTotalRed += @a[team=red] bankedTotal
-scoreboard players operation Banked scoreTotalGreen += @a[team=green] bankedTotal
-scoreboard players operation Banked scoreTotalYellow += @a[team=yellow] bankedTotal
 
 # Combine all the scores
 # blue team
@@ -125,23 +101,7 @@ scoreboard players operation Red combinedScores += LapisLazuli scoreTotalRed
 scoreboard players operation Red combinedScores += Diamond scoreTotalRed
 scoreboard players operation Red combinedScores += Emerald scoreTotalRed
 scoreboard players operation Red combinedScores += Banked scoreTotalRed
-# green team
-scoreboard players operation Green combinedScores = Coal scoreTotalGreen
-scoreboard players operation Green combinedScores += Redstone scoreTotalGreen
-scoreboard players operation Green combinedScores += LapisLazuli scoreTotalGreen
-scoreboard players operation Green combinedScores += Diamond scoreTotalGreen
-scoreboard players operation Green combinedScores += Emerald scoreTotalGreen
-scoreboard players operation Green combinedScores += Banked scoreTotalGreen
-# yellow team
-scoreboard players operation Yellow combinedScores = Coal scoreTotalYellow
-scoreboard players operation Yellow combinedScores += Redstone scoreTotalYellow
-scoreboard players operation Yellow combinedScores += LapisLazuli scoreTotalYellow
-scoreboard players operation Yellow combinedScores += Diamond scoreTotalYellow
-scoreboard players operation Yellow combinedScores += Emerald scoreTotalYellow
-scoreboard players operation Yellow combinedScores += Banked scoreTotalYellow
 
 # Bounce scores to display scoreboard
 scoreboard players operation Blue displayScores = Blue combinedScores
 scoreboard players operation Red displayScores = Red combinedScores
-scoreboard players operation Green displayScores = Green combinedScores
-scoreboard players operation Yellow displayScores = Yellow combinedScores

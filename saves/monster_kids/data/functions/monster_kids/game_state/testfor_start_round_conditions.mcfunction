@@ -5,9 +5,6 @@ scoreboard players tag @e[type=area_effect_cloud,name=Main,tag=!RoundInProgress]
 scoreboard players tag @e[type=area_effect_cloud,name=Main,tag=StartRound] add NoPlayersAvailable
 execute @a[team=blue,c=1] ~ ~ ~ scoreboard players tag @e[type=area_effect_cloud,name=Main,tag=StartRound] remove NoPlayersAvailable
 execute @a[team=red,c=1] ~ ~ ~ scoreboard players tag @e[type=area_effect_cloud,name=Main,tag=StartRound] remove NoPlayersAvailable
-execute @a[team=green,c=1] ~ ~ ~ scoreboard players tag @e[type=area_effect_cloud,name=Main,tag=StartRound] remove NoPlayersAvailable
-execute @a[team=yellow,c=1] ~ ~ ~ scoreboard players tag @e[type=area_effect_cloud,name=Main,tag=StartRound] remove NoPlayersAvailable
-
 execute @e[type=area_effect_cloud,name=Main] ~ ~ ~ testfor @s[tag=NoPlayersAvailable]
 scoreboard players tag @e[type=area_effect_cloud,name=Main,score_SuccessCount_min=1] remove StartRound
 execute @e[type=area_effect_cloud,name=Main,tag=!StartRound] ~ ~ ~ tellraw @a {"translate":"mk.error.gameStartAborted","color":"red","with":[{"translate":"mk.error.gameStart.noPlayers"}]}

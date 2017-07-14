@@ -60,8 +60,6 @@ mk.team.join=%s joined %s
 mk.team.leave=%s left their team
 mk.team.blue=Blue
 mk.team.red=Red
-mk.team.green=Green
-mk.team.yellow=Yellow
 
 mk.joinTeam.blue1=
 mk.joinTeam.blue2=[Join/Leave]
@@ -72,16 +70,6 @@ mk.joinTeam.red1=
 mk.joinTeam.red2=[Join/Leave]
 mk.joinTeam.red3=Red
 mk.joinTeam.red4=
-
-mk.joinTeam.green1=
-mk.joinTeam.green2=[Join/Leave]
-mk.joinTeam.green3=Green
-mk.joinTeam.green4=
-
-mk.joinTeam.yellow1=
-mk.joinTeam.yellow2=[Join/Leave]
-mk.joinTeam.yellow3=Yellow
-mk.joinTeam.yellow4=
 
 mk.selectClass.elytra1=
 mk.selectClass.elytra2=[Select]

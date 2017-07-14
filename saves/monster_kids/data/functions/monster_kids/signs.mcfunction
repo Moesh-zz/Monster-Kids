@@ -32,36 +32,6 @@ blockdata ~ ~ ~ {
 	Text4: "{\"translate\":\"mk.joinTeam.red4\"}"
 }
 
-blockdata ~ ~ ~ {
-	Text1: "{\"translate\":\"mk.joinTeam.green1\"}",
-	Text2: "{\"translate\":\"mk.joinTeam.green2\"}",
-	Text3: "{
-		\"translate\":\"mk.joinTeam.green3\",
-		\"color\":\"green\",
-		\"clickEvent\":{
-			\"action\":\"run_command\",
-			\"value\":\"/trigger teamSelected set 3\"
-		}
-	}",
-
-	Text4: "{\"translate\":\"mk.joinTeam.green4\"}"
-}
-
-blockdata ~ ~ ~ {
-	Text1: "{\"translate\":\"mk.joinTeam.yellow1\"}",
-	Text2: "{\"translate\":\"mk.joinTeam.yellow2\"}",
-	Text3: "{
-		\"translate\":\"mk.joinTeam.yellow3\",
-		\"color\":\"yellow\",
-		\"clickEvent\":{
-			\"action\":\"run_command\",
-			\"value\":\"/trigger teamSelected set 4\"
-		}
-	}",
-
-	Text4: "{\"translate\":\"mk.joinTeam.yellow4\"}"
-}
-
 # Select Class
 blockdata ~ ~ ~ {
 	Text1: "{\"translate\":\"mk.selectClass.elytra1\"}",

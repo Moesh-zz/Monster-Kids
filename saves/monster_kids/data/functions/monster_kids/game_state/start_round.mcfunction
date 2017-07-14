@@ -30,34 +30,21 @@ scoreboard players reset * pickupPotato
 scoreboard players reset * startRound
 scoreboard players reset * teamSelected
 
-scoreboard players set Banked scoreTotalBlue 0
-scoreboard players set Banked scoreTotalGreen 0
-scoreboard players set Banked scoreTotalRed 0
-scoreboard players set Banked scoreTotalYellow 0
-scoreboard players set Blue combinedScores 0
-scoreboard players set Coal scoreTotalBlue 0
-scoreboard players set Coal scoreTotalGreen 0
-scoreboard players set Coal scoreTotalRed 0
-scoreboard players set Coal scoreTotalYellow 0
-scoreboard players set Diamond scoreTotalBlue 0
-scoreboard players set Diamond scoreTotalGreen 0
-scoreboard players set Diamond scoreTotalRed 0
-scoreboard players set Diamond scoreTotalYellow 0
-scoreboard players set Emerald scoreTotalBlue 0
-scoreboard players set Emerald scoreTotalGreen 0
-scoreboard players set Emerald scoreTotalRed 0
-scoreboard players set Emerald scoreTotalYellow 0
-scoreboard players set Green combinedScores 0
-scoreboard players set LapisLazuli scoreTotalBlue 0
-scoreboard players set LapisLazuli scoreTotalGreen 0
-scoreboard players set LapisLazuli scoreTotalRed 0
-scoreboard players set LapisLazuli scoreTotalYellow 0
 scoreboard players set Red combinedScores 0
+scoreboard players set Blue combinedScores 0
+scoreboard players set Banked scoreTotalBlue 0
+scoreboard players set Banked scoreTotalRed 0
+
+scoreboard players set Coal scoreTotalBlue 0
+scoreboard players set Coal scoreTotalRed 0
+scoreboard players set Diamond scoreTotalBlue 0
+scoreboard players set Diamond scoreTotalRed 0
+scoreboard players set Emerald scoreTotalBlue 0
+scoreboard players set Emerald scoreTotalRed 0
+scoreboard players set LapisLazuli scoreTotalBlue 0
+scoreboard players set LapisLazuli scoreTotalRed 0
 scoreboard players set Redstone scoreTotalBlue 0
-scoreboard players set Redstone scoreTotalGreen 0
 scoreboard players set Redstone scoreTotalRed 0
-scoreboard players set Redstone scoreTotalYellow 0
-scoreboard players set Yellow combinedScores 0
 
 # Clear main menu and barrier glass
 fill 121 53 3201 134 52 3198 minecraft:air
