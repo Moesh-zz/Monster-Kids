@@ -193,5 +193,4 @@ stats entity @e[type=area_effect_cloud,name=Main] set AffectedItems @s AffectedI
 stats entity @e[type=area_effect_cloud,name=Main] set SuccessCount @s SuccessCount
 stats entity @e[type=area_effect_cloud,name=Main] set QueryResult @s QueryResult
 
-function monster_kids:game_state/end_round
 gamerule gameLoopFunction monster_kids:main
