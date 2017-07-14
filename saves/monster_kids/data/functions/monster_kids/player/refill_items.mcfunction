@@ -1,4 +1,4 @@
-function monster_kids:apply_pregame_effects unless @e[type=area_effect_cloud,name=Main,tag=RoundInProgress]
+function monster_kids:player/apply_pregame_effects unless @e[type=area_effect_cloud,name=Main,tag=RoundInProgress]
 
 effect @a[tag=RefillItems] minecraft:instant_health 1 3 true
 effect @a[tag=RefillItems] minecraft:saturation 5 100 true
