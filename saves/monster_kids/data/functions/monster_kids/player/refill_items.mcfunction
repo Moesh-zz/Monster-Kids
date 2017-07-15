@@ -11,7 +11,7 @@ execute @a[tag=RefillItems] ~ ~ ~ clear @s minecraft:iron_boots -1 0
 scoreboard players tag @a[tag=RefillItems,score_AffectedItems=0] add RefillBoots
 
 execute @a[tag=RefillItems] ~ ~ ~ clear @s minecraft:shield -1 0
-scoreboard players tag @a[tag=RefillItems,score_AffectedItems=0] add RefillShield
+execute @a[tag=RefillItems] ~ ~ ~ scoreboard players tag @a[tag=!ClassLadder,score_AffectedItems=0] add RefillShield
 
 execute @a[tag=RefillItems] ~ ~ ~ clear @s minecraft:glass -1 0
 scoreboard players tag @s[tag=RefillItems,score_AffectedItems_min=1] add ClearScaffold
@@ -54,10 +54,8 @@ scoreboard players tag @a[tag=RefillElytra] remove RefillElytra
 
 # Ladder
 clear @a[tag=RefillLadder] minecraft:ladder
-clear @a[tag=RefillLadder] minecraft:tnt
-clear @a[tag=RefillLadder] minecraft:flint_and_steel
-give @a[tag=RefillLadder] minecraft:tnt 8
-give @a[tag=RefillLadder] minecraft:flint_and_steel
+clear @a[tag=RefillLadder] minecraft:totem_of_undying
+replaceitem entity @a[tag=RefillLadder] slot.weapon.offhand minecraft:totem_of_undying 1 0 {ench:[{id:10,lvl:1},{id:71,lvl:1}]}
 give @a[tag=RefillLadder] minecraft:ladder 16 0 {AttributeModifiers:[{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Amount:1,Operation:0,UUIDLeast:686410,UUIDMost:699212,Slot:"offhand"},{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Amount:1,Operation:0,UUIDLeast:686413,UUIDMost:699215,Slot:"mainhand"}]}
 scoreboard players tag @a[tag=RefillLadder] remove RefillLadder
 

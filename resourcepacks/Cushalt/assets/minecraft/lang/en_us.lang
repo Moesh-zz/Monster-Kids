@@ -46,7 +46,7 @@ mk.class.selected=%s selected the %s itemset
 mk.class.description=%s
 mk.class.elytra=Elytra
 mk.class.pearl=Ender Pearl
-mk.class.ladder=Ladders + TNT
+mk.class.ladder=Ladders + Totem
 mk.class.human=Human
 
 mk.class.elytra.description=When banking or respawning, you will be given [Elytra], and [Fireworks] * 4.
@@ -84,7 +84,7 @@ mk.selectClass.pearl4=
 
 mk.selectClass.ladder1=
 mk.selectClass.ladder2=[Select]
-mk.selectClass.ladder3=Ladders + TNT
+mk.selectClass.ladder3=Ladders + Totem
 mk.selectClass.ladder4=
 
 mk.selectClass.nothing1=
