@@ -30,19 +30,13 @@ scoreboard objectives remove bankedTotal
 
 scoreboard objectives remove scoreBlue
 scoreboard objectives remove scoreRed
-scoreboard objectives remove scoreGreen
-scoreboard objectives remove scoreYellow
 scoreboard objectives remove scoreTotal
 
 scoreboard objectives remove scoreHeldBlue
 scoreboard objectives remove scoreHeldRed
-scoreboard objectives remove scoreHeldGreen
-scoreboard objectives remove scoreHeldYellow
 
 scoreboard objectives remove scoreTotalBlue
 scoreboard objectives remove scoreTotalRed
-scoreboard objectives remove scoreTotalGreen
-scoreboard objectives remove scoreTotalYellow
 
 scoreboard objectives remove loggedOff
 scoreboard objectives remove combinedScores
@@ -108,26 +102,18 @@ scoreboard objectives add bankedTotal dummy
 
 scoreboard objectives add scoreHeldBlue dummy
 scoreboard objectives add scoreHeldRed dummy
-scoreboard objectives add scoreHeldGreen dummy
-scoreboard objectives add scoreHeldYellow dummy
 
 scoreboard objectives add scoreTotalBlue dummy
 scoreboard objectives add scoreTotalRed dummy
-scoreboard objectives add scoreTotalGreen dummy
-scoreboard objectives add scoreTotalYellow dummy
 scoreboard objectives add scoreTotal dummy
 
 scoreboard objectives add combinedScores dummy
 scoreboard players set Blue combinedScores 0
 scoreboard players set Red combinedScores 0
-scoreboard players set Green combinedScores 0
-scoreboard players set Yellow combinedScores 0
 
 scoreboard objectives add displayScores dummy Food
 scoreboard players set Blue displayScores 0
 scoreboard players set Red displayScores 0
-scoreboard players set Green displayScores 0
-scoreboard players set Yellow displayScores 0
 
 scoreboard objectives add EffectCoal dummy
 scoreboard objectives add EffectEmerald dummy
@@ -152,12 +138,10 @@ scoreboard objectives add pickupPotato stat.pickup.minecraft.baked_potato
 scoreboard objectives add pickupGlass stat.pickup.minecraft.glass
 
 # Remove Scoreboard Teams
-scoreboard teams remove blue
-scoreboard teams remove green
 scoreboard teams remove lobby
-scoreboard teams remove red
 scoreboard teams add spectator
-scoreboard teams remove yellow
+scoreboard teams remove blue
+scoreboard teams remove red
 
 # Add And Configure Scoreboard Teams
 scoreboard teams add lobby Lobby
@@ -170,13 +154,6 @@ scoreboard teams option blue deathMessageVisibility always
 scoreboard teams option blue friendlyfire false
 scoreboard teams option blue nametagVisibility always
 
-scoreboard teams add green Green
-scoreboard teams option green collisionRule pushOtherTeams
-scoreboard teams option green color green
-scoreboard teams option green deathMessageVisibility always
-scoreboard teams option green friendlyfire false
-scoreboard teams option green nametagVisibility always
-
 scoreboard teams add red Red
 scoreboard teams option red collisionRule pushOtherTeams
 scoreboard teams option red color red
@@ -184,18 +161,9 @@ scoreboard teams option red deathMessageVisibility always
 scoreboard teams option red friendlyfire false
 scoreboard teams option red nametagVisibility always
 
-scoreboard teams add yellow Yellow
-scoreboard teams option yellow collisionRule pushOtherTeams
-scoreboard teams option yellow color yellow
-scoreboard teams option yellow deathMessageVisibility always
-scoreboard teams option yellow friendlyfire false
-scoreboard teams option yellow nametagVisibility always
-
 # AddFakePlayersToTeam
 scoreboard teams join blue Blue
 scoreboard teams join red Red
-scoreboard teams join green Green
-scoreboard teams join yellow Yellow
 
 # RemoveScoreboardTags
 scoreboard players tag @a remove Registered
@@ -225,5 +193,4 @@ stats entity @e[type=area_effect_cloud,name=Main] set AffectedItems @s AffectedI
 stats entity @e[type=area_effect_cloud,name=Main] set SuccessCount @s SuccessCount
 stats entity @e[type=area_effect_cloud,name=Main] set QueryResult @s QueryResult
 
-function monster_kids:game_state/end_round
 gamerule gameLoopFunction monster_kids:main

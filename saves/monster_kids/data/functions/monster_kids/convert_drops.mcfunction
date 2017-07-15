@@ -51,6 +51,5 @@ scoreboard players tag @e[type=item] add KillItem {Item:{id:"minecraft:ender_pea
 scoreboard players tag @e[type=item] add KillItem {Item:{id:"minecraft:fireworks"}}
 scoreboard players tag @e[type=item] add KillItem {Item:{id:"minecraft:ladder"}}
 scoreboard players tag @e[type=item] add KillItem {Item:{id:"minecraft:slime"}}
-scoreboard players tag @e[type=item] add KillItem {Item:{id:"minecraft:tnt"}}
 scoreboard players tag @e[type=item] add KillItem {Item:{id:"minecraft:torch"}}
 kill @e[type=item,tag=KillItem]

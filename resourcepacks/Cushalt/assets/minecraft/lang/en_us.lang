@@ -36,6 +36,7 @@ mk.roundEnd.countdown=Match will end in %s seconds.
 mk.roundEnd.title=Game end!
 mk.roundEnd.info=%s collected the most %s. They are the cutest Monster Kids this round!
 mk.roundEnd.result=Result: Not the Cutest Monster Kids Ever.
+mk.roundEnd.tie=Tie! No definitive winner means another match must be had!
 
 mk.error.gameStartAborted=Match start aborted. %s
 mk.error.gameStart.noPlayers=No players have joined a team.
@@ -45,7 +46,7 @@ mk.class.selected=%s selected the %s itemset
 mk.class.description=%s
 mk.class.elytra=Elytra
 mk.class.pearl=Ender Pearl
-mk.class.ladder=Ladders + TNT
+mk.class.ladder=Ladders + Totem
 mk.class.human=Human
 
 mk.class.elytra.description=When banking or respawning, you will be given [Elytra], and [Fireworks] * 4.
@@ -60,8 +61,6 @@ mk.team.join=%s joined %s
 mk.team.leave=%s left their team
 mk.team.blue=Blue
 mk.team.red=Red
-mk.team.green=Green
-mk.team.yellow=Yellow
 
 mk.joinTeam.blue1=
 mk.joinTeam.blue2=[Join/Leave]
@@ -72,16 +71,6 @@ mk.joinTeam.red1=
 mk.joinTeam.red2=[Join/Leave]
 mk.joinTeam.red3=Red
 mk.joinTeam.red4=
-
-mk.joinTeam.green1=
-mk.joinTeam.green2=[Join/Leave]
-mk.joinTeam.green3=Green
-mk.joinTeam.green4=
-
-mk.joinTeam.yellow1=
-mk.joinTeam.yellow2=[Join/Leave]
-mk.joinTeam.yellow3=Yellow
-mk.joinTeam.yellow4=
 
 mk.selectClass.elytra1=
 mk.selectClass.elytra2=[Select]
@@ -95,7 +84,7 @@ mk.selectClass.pearl4=
 
 mk.selectClass.ladder1=
 mk.selectClass.ladder2=[Select]
-mk.selectClass.ladder3=Ladders + TNT
+mk.selectClass.ladder3=Ladders + Totem
 mk.selectClass.ladder4=
 
 mk.selectClass.nothing1=

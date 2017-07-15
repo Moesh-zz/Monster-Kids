@@ -1,4 +1,4 @@
-function monster_kids:apply_pregame_effects unless @e[type=area_effect_cloud,name=Main,tag=RoundInProgress]
+function monster_kids:player/apply_pregame_effects unless @e[type=area_effect_cloud,name=Main,tag=RoundInProgress]
 
 effect @a[tag=RefillItems] minecraft:instant_health 1 3 true
 effect @a[tag=RefillItems] minecraft:saturation 5 100 true
@@ -11,10 +11,10 @@ execute @a[tag=RefillItems] ~ ~ ~ clear @s minecraft:iron_boots -1 0
 scoreboard players tag @a[tag=RefillItems,score_AffectedItems=0] add RefillBoots
 
 execute @a[tag=RefillItems] ~ ~ ~ clear @s minecraft:shield -1 0
-scoreboard players tag @a[tag=RefillItems,score_AffectedItems=0] add RefillShield
+execute @a[tag=RefillItems] ~ ~ ~ scoreboard players tag @a[tag=!ClassLadder,score_AffectedItems=0] add RefillShield
 
 execute @a[tag=RefillItems] ~ ~ ~ clear @s minecraft:glass -1 0
-scoreboard players tag @s[tag=RefillItems,score_AffectedItems=0] add ClearScaffold
+scoreboard players tag @s[tag=RefillItems,score_AffectedItems_min=1] add ClearScaffold
 
 execute @a[tag=RefillItems] ~ ~ ~ scoreboard players tag @s[tag=ClassElytra] add RefillElytra
 execute @a[tag=RefillItems] ~ ~ ~ scoreboard players tag @s[tag=ClassLadder] add RefillLadder
@@ -29,9 +29,10 @@ scoreboard players tag @a[tag=RefillItems] remove RefillItems
 give @a[tag=RefillClaw] minecraft:iron_pickaxe 1 195 {Unbreakable:1, AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:5,Operation:0,UUIDLeast:98680,UUIDMost:84995,Slot:"mainhand"}, {AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Amount:1,Operation:0,UUIDLeast:489070,UUIDMost:130734,Slot:"mainhand"} ], ench:[{id:70,lvl:1}, {id:71,lvl:1} ] }
 scoreboard players tag @a[tag=RefillClaw] remove RefillClaw
 
+# Clear additional scaffolding
 clear @a[tag=ClearScaffold] minecraft:glass
-tellraw @a[tag=ClearScaffold] minecraft:glass
 scoreboard players tag @a[tag=ClearScaffold] remove ClearScaffold
+
 # Glowing Mushrooms
 clear @a[tag=RefillTorches] minecraft:torch
 give @a[tag=RefillTorches] minecraft:torch 24
@@ -53,10 +54,8 @@ scoreboard players tag @a[tag=RefillElytra] remove RefillElytra
 
 # Ladder
 clear @a[tag=RefillLadder] minecraft:ladder
-clear @a[tag=RefillLadder] minecraft:tnt
-clear @a[tag=RefillLadder] minecraft:flint_and_steel
-give @a[tag=RefillLadder] minecraft:tnt 8
-give @a[tag=RefillLadder] minecraft:flint_and_steel
+clear @a[tag=RefillLadder] minecraft:totem_of_undying
+replaceitem entity @a[tag=RefillLadder] slot.weapon.offhand minecraft:totem_of_undying 1 0 {ench:[{id:10,lvl:1},{id:71,lvl:1}]}
 give @a[tag=RefillLadder] minecraft:ladder 16 0 {AttributeModifiers:[{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Amount:1,Operation:0,UUIDLeast:686410,UUIDMost:699212,Slot:"offhand"},{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Amount:1,Operation:0,UUIDLeast:686413,UUIDMost:699215,Slot:"mainhand"}]}
 scoreboard players tag @a[tag=RefillLadder] remove RefillLadder
 
