@@ -36,6 +36,7 @@ mk.roundEnd.countdown=Match will end in %s seconds.
 mk.roundEnd.title=Game end!
 mk.roundEnd.info=%s collected the most %s. They are the cutest Monster Kids this round!
 mk.roundEnd.result=Result: Not the Cutest Monster Kids Ever.
+mk.roundEnd.tie=Tie! No definitive winner means another match must be had!
 
 mk.error.gameStartAborted=Match start aborted. %s
 mk.error.gameStart.noPlayers=No players have joined a team.
