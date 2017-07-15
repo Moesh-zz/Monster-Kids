@@ -14,7 +14,7 @@ execute @a[tag=RefillItems] ~ ~ ~ clear @s minecraft:shield -1 0
 scoreboard players tag @a[tag=RefillItems,score_AffectedItems=0] add RefillShield
 
 execute @a[tag=RefillItems] ~ ~ ~ clear @s minecraft:glass -1 0
-scoreboard players tag @s[tag=RefillItems,score_AffectedItems=0] add ClearScaffold
+scoreboard players tag @s[tag=RefillItems,score_AffectedItems_min=1] add ClearScaffold
 
 execute @a[tag=RefillItems] ~ ~ ~ scoreboard players tag @s[tag=ClassElytra] add RefillElytra
 execute @a[tag=RefillItems] ~ ~ ~ scoreboard players tag @s[tag=ClassLadder] add RefillLadder
@@ -29,9 +29,10 @@ scoreboard players tag @a[tag=RefillItems] remove RefillItems
 give @a[tag=RefillClaw] minecraft:iron_pickaxe 1 195 {Unbreakable:1, AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:5,Operation:0,UUIDLeast:98680,UUIDMost:84995,Slot:"mainhand"}, {AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Amount:1,Operation:0,UUIDLeast:489070,UUIDMost:130734,Slot:"mainhand"} ], ench:[{id:70,lvl:1}, {id:71,lvl:1} ] }
 scoreboard players tag @a[tag=RefillClaw] remove RefillClaw
 
+# Clear additional scaffolding
 clear @a[tag=ClearScaffold] minecraft:glass
-tellraw @a[tag=ClearScaffold] minecraft:glass
 scoreboard players tag @a[tag=ClearScaffold] remove ClearScaffold
+
 # Glowing Mushrooms
 clear @a[tag=RefillTorches] minecraft:torch
 give @a[tag=RefillTorches] minecraft:torch 24
