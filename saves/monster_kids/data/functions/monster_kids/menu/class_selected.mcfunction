@@ -19,9 +19,9 @@ execute @a[tag=choosePearl] ~ ~ ~ tellraw @a[tag=!choosePearl] {"translate":"mk.
 execute @a[tag=chooseLadder] ~ ~ ~ tellraw @a[tag=!chooseLadder] {"translate":"mk.class.selected", "with":[{"selector":"@a[tag=chooseLadder]"}, {"translate":"mk.class.ladder", "color":"light_purple"} ] }
 
 # Descriptions
-tellraw @a[tag=chooseElytra] {"translate":"mk.class.elytra.description", "color":"gray", "italic":true }
-tellraw @a[tag=choosePearl] {"translate":"mk.class.pearl.description", "color":"gray", "italic":true }
-tellraw @a[tag=chooseLadder] {"translate":"mk.class.ladder.description", "color":"gray", "italic":true }
+tellraw @a[tag=chooseElytra] {"translate":"mk.class","color":"gray","italic":true,"with":[{"translate":"mk.class.elytra.description"}]}
+tellraw @a[tag=choosePearl] {"translate":"mk.class","color":"gray","italic":true,"with":[{"translate":"mk.class.pearl.description"}]}
+tellraw @a[tag=chooseLadder] {"translate":"mk.class","color":"gray","italic":true,"with":[{"translate":"mk.class.ladder.description"}]}
 
 scoreboard players tag @a[tag=chooseElytra] remove chooseElytra
 scoreboard players tag @a[tag=choosePearl] remove choosePearl

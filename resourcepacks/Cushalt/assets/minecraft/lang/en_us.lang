@@ -49,10 +49,11 @@ mk.class.pearl=Ender Pearl
 mk.class.ladder=Ladders + Totem
 mk.class.human=Human
 
-mk.class.elytra.description=When banking or respawning, you will be given [Elytra], and [Fireworks] * 4.
-mk.class.pearl.description=When banking or respawning, you will be given [Ender Pearl] * 3.
-mk.class.ladder.description=When banking or respawning, you will be given [Ladder] * 16, [TNT] * 8, and [Flint and Steel]. Ladders will extend themselves upwards when you climb them. Holding the [Ladder] item will give you full Knockback Resistance.
-mk.class.human.description=When banking or respawning, you will given nothing. You're the worst.
+mk.class=Kit: %s
+mk.class.elytra.description=[Elytra] and [Fireworks] * 4
+mk.class.pearl.description=[Ender Pearl] * 3
+mk.class.ladder.description=[Ladder] * 16 and [Totem of Undying]
+mk.class.human.description=Nothing
 
 mk.items.refilled=Your items have been refilled!
 
