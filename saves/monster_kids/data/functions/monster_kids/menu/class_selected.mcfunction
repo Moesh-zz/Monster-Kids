@@ -1,28 +1,36 @@
-scoreboard players tag @a[score_classSelected_min=1] remove ClassElytra
-scoreboard players tag @a[score_classSelected_min=1] remove ClassPearl
-scoreboard players tag @a[score_classSelected_min=1] remove ClassLadder
+# Leave previous class
+scoreboard players tag @a[tag=ClassElytra,score_classSelected_min=1] remove ClassElytra
+scoreboard players tag @a[tag=ClassPearl,score_classSelected_min=1] remove ClassPearl
+scoreboard players tag @a[tag=ClassLadder,score_classSelected_min=1] remove ClassLadder
 
-# Flag player to be added to team if not on team
-scoreboard players tag @a[score_classSelected_min=1,score_classSelected=1] add chooseElytra
-scoreboard players tag @a[score_classSelected_min=2,score_classSelected=2] add choosePearl
-scoreboard players tag @a[score_classSelected_min=3,score_classSelected=3] add chooseLadder
+# Players cannot select a kit until they have joined a team
+scoreboard players tag @a[team=lobby,score_classSelected_min=1] add MustSelectTeam
+scoreboard players set @a[tag=MustSelectTeam] classSelected 0
+scoreboard players enable @a[tag=MustSelectTeam] classSelected
+tellraw @a[tag=MustSelectTeam] {"translate":"mk.class.noteam","color":"red"}
+scoreboard players tag @a[tag=MustSelectTeam] remove MustSelectTeam
+
+# Transfer trigger to tag and reset trigger
+scoreboard players tag @a[score_classSelected_min=1,score_classSelected=1] add selectedElytra
+scoreboard players tag @a[score_classSelected_min=2,score_classSelected=2] add selectedPearl
+scoreboard players tag @a[score_classSelected_min=3,score_classSelected=3] add selectedLadder
+scoreboard players tag @a[tag=selectedElytra] add ClassElytra
+scoreboard players tag @a[tag=selectedPearl] add ClassPearl
+scoreboard players tag @a[tag=selectedLadder] add ClassLadder
 scoreboard players set @a[score_classSelected_min=1] classSelected 0
 scoreboard players enable @a classSelected
 
-scoreboard players tag @a[tag=chooseElytra] add ClassElytra
-scoreboard players tag @a[tag=choosePearl] add ClassPearl
-scoreboard players tag @a[tag=chooseLadder] add ClassLadder
+# Announce player choice to server
+execute @a[tag=selectedElytra] ~ ~ ~ tellraw @a[tag=!selectedElytra] {"translate":"mk.class.selected", "with":[{"selector":"@a[tag=selectedElytra]"}, {"translate":"mk.class.elytra", "color":"light_purple"} ] }
+execute @a[tag=selectedPearl] ~ ~ ~ tellraw @a[tag=!selectedPearl] {"translate":"mk.class.selected", "with":[{"selector":"@a[tag=selectedPearl]"}, {"translate":"mk.class.pearl", "color":"light_purple"} ] }
+execute @a[tag=selectedLadder] ~ ~ ~ tellraw @a[tag=!selectedLadder] {"translate":"mk.class.selected", "with":[{"selector":"@a[tag=selectedLadder]"}, {"translate":"mk.class.ladder", "color":"light_purple"} ] }
 
-# PLAYER choose class
-execute @a[tag=chooseElytra] ~ ~ ~ tellraw @a[tag=!chooseElytra] {"translate":"mk.class.selected", "with":[{"selector":"@a[tag=chooseElytra]"}, {"translate":"mk.class.elytra", "color":"light_purple"} ] }
-execute @a[tag=choosePearl] ~ ~ ~ tellraw @a[tag=!choosePearl] {"translate":"mk.class.selected", "with":[{"selector":"@a[tag=choosePearl]"}, {"translate":"mk.class.pearl", "color":"light_purple"} ] }
-execute @a[tag=chooseLadder] ~ ~ ~ tellraw @a[tag=!chooseLadder] {"translate":"mk.class.selected", "with":[{"selector":"@a[tag=chooseLadder]"}, {"translate":"mk.class.ladder", "color":"light_purple"} ] }
+# Announce class description to player
+tellraw @a[tag=selectedElytra] {"translate":"mk.class","color":"gray","italic":true,"with":[{"translate":"mk.class.elytra.description"}]}
+tellraw @a[tag=selectedPearl] {"translate":"mk.class","color":"gray","italic":true,"with":[{"translate":"mk.class.pearl.description"}]}
+tellraw @a[tag=selectedLadder] {"translate":"mk.class","color":"gray","italic":true,"with":[{"translate":"mk.class.ladder.description"}]}
 
-# Descriptions
-tellraw @a[tag=chooseElytra] {"translate":"mk.class","color":"gray","italic":true,"with":[{"translate":"mk.class.elytra.description"}]}
-tellraw @a[tag=choosePearl] {"translate":"mk.class","color":"gray","italic":true,"with":[{"translate":"mk.class.pearl.description"}]}
-tellraw @a[tag=chooseLadder] {"translate":"mk.class","color":"gray","italic":true,"with":[{"translate":"mk.class.ladder.description"}]}
-
-scoreboard players tag @a[tag=chooseElytra] remove chooseElytra
-scoreboard players tag @a[tag=choosePearl] remove choosePearl
-scoreboard players tag @a[tag=chooseLadder] remove chooseLadder
+# Reset
+scoreboard players tag @a[tag=selectedElytra] remove selectedElytra
+scoreboard players tag @a[tag=selectedPearl] remove selectedPearl
+scoreboard players tag @a[tag=selectedLadder] remove selectedLadder

@@ -42,12 +42,13 @@ mk.error.gameStartAborted=Match start aborted. %s
 mk.error.gameStart.noPlayers=No players have joined a team.
 mk.error.gameStart.missingItems=%s must select a set of items to dig with.
 
-mk.class.selected=%s selected the %s itemset
+mk.class.selected=%s selected the %s kit
 mk.class.description=%s
 mk.class.elytra=Elytra
 mk.class.pearl=Ender Pearl
 mk.class.ladder=Ladders + Totem
 mk.class.human=Human
+mk.class.noteam=You must select a team before selecting a kit.
 
 mk.class=Kit: %s
 mk.class.elytra.description=[Elytra] and [Fireworks] * 4
