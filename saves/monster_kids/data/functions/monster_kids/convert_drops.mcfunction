@@ -23,8 +23,6 @@ scoreboard players tag @e[type=item] add CovertQuartzToChorus {Item:{id:"minecra
 entitydata @e[type=item,tag=CovertQuartzToChorus] {Item:{id:"minecraft:chorus_fruit"}}
 scoreboard players tag @e[type=item,tag=CovertQuartzToChorus] remove CovertQuartzToChorus {Item:{id:"minecraft:chorus_fruit"}}
 
-kill @e[type=xp_orb]
-
 # Convert all non-food drops to glass
 scoreboard players tag @e[type=item] add ConvertToGlass {Item:{id:"minecraft:bedrock"}}
 scoreboard players tag @e[type=item] add ConvertToGlass {Item:{id:"minecraft:cobblestone"}}
@@ -53,3 +51,4 @@ scoreboard players tag @e[type=item] add KillItem {Item:{id:"minecraft:ladder"}}
 scoreboard players tag @e[type=item] add KillItem {Item:{id:"minecraft:slime"}}
 scoreboard players tag @e[type=item] add KillItem {Item:{id:"minecraft:torch"}}
 kill @e[type=item,tag=KillItem]
+kill @e[type=xp_orb]
