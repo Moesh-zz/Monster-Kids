@@ -14,7 +14,7 @@ execute @a[tag=RefillItems] ~ ~ ~ clear @s minecraft:shield -1 0
 execute @a[tag=RefillItems] ~ ~ ~ scoreboard players tag @a[tag=!ClassLadder,score_AffectedItems=0] add RefillShield
 
 execute @a[tag=RefillItems] ~ ~ ~ clear @s minecraft:glass -1 0
-scoreboard players tag @s[tag=RefillItems,score_AffectedItems_min=1] add ClearScaffold
+scoreboard players tag @a[tag=RefillItems,score_AffectedItems_min=1] add ClearScaffold
 
 execute @a[tag=RefillItems] ~ ~ ~ scoreboard players tag @s[tag=ClassElytra] add RefillElytra
 execute @a[tag=RefillItems] ~ ~ ~ scoreboard players tag @s[tag=ClassLadder] add RefillLadder
