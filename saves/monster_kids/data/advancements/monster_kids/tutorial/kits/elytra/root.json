@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": {
+            "translate": "mk.advancements.tutorial.kits.elytra"
+        },
+        "description": {
+            "translate": "mk.advancements.tutorial.kits.elytra.description"
+        },
+        "hidden": false
+    },
+    "parent": "monster_kids:tutorial/kits/monster_boots",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

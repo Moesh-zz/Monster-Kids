@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pumpkin_pie"
+        },
+        "title": {
+            "translate": "mk.advacements.tutorial.ores.level4"
+        },
+        "description": {
+            "translate": "mk.advacements.tutorial.ores.level4.description"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "monster_kids:tutorial/ores/pumpkin_pie/level3",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

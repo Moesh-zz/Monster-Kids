@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_chicken"
+        },
+        "title": {
+            "translate": "mk.advacements.tutorial.ores.cream_of_diorite.root"
+        },
+        "description": {
+            "translate": "mk.advacements.tutorial.ores.cream_of_diorite.root.description"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "monster_kids:tutorial/food/cooked_mutton",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pumpkin_pie"
+        },
+        "title": {
+            "translate": "mk.advacements.tutorial.ores.pumpkin_pie.root"
+        },
+        "description": {
+            "translate": "mk.advacements.tutorial.ores.pumpkin_pie.root.description"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "monster_kids:tutorial/food/baked_potato",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

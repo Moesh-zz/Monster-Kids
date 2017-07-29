@@ -75,22 +75,22 @@ mk.joinTeam.red3=Red
 mk.joinTeam.red4=
 
 mk.selectClass.elytra1=
-mk.selectClass.elytra2=[Select]
+mk.selectClass.elytra2=[Select Kit]
 mk.selectClass.elytra3=Elytra
 mk.selectClass.elytra4=
 
 mk.selectClass.pearl1=
-mk.selectClass.pearl2=[Select]
+mk.selectClass.pearl2=[Select Kit]
 mk.selectClass.pearl3=Ender Pearl
 mk.selectClass.pearl4=
 
 mk.selectClass.ladder1=
-mk.selectClass.ladder2=[Select]
+mk.selectClass.ladder2=[Select Kit]
 mk.selectClass.ladder3=Ladders + Totem
 mk.selectClass.ladder4=
 
 mk.selectClass.nothing1=
-mk.selectClass.nothing2=[Select]
+mk.selectClass.nothing2=[Select Kit]
 mk.selectClass.nothing3=Nothing
 mk.selectClass.nothing4=
 
@@ -100,3 +100,7 @@ mk.sign.startRound3=Start Round
 mk.sign.startRound4=
 
 mk.streak=+%s (%s)
+
+## SIGNS ##
+mk.advacements.tutorial.root=Tutorial
+mk.advacements.tutorial.root.description=Read the tutorial to learn about the blocks!

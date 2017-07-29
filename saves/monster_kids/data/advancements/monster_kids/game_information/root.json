@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "title": {
+            "translate": "mk.advacements.game_information.root"
+        },
+        "description": {
+            "translate": "mk.advacementsgame_information.root.description"
+        },
+        "background": "minecraft:textures/blocks/stonebrick.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

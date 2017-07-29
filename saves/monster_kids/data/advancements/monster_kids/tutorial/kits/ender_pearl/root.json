@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_pearl"
+        },
+        "title": {
+            "translate": "mk.advancements.tutorial.kits.ender_pearl"
+        },
+        "description": {
+            "translate": "mk.advancements.tutorial.kits.ender_pearl.description"
+        },
+        "hidden": false
+    },
+    "parent": "monster_kids:tutorial/kits/monster_boots",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

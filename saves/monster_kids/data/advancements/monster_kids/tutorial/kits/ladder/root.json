@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ladder"
+        },
+        "title": {
+            "translate": "mk.advancements.tutorial.kits.ladder"
+        },
+        "description": {
+            "translate": "mk.advancements.tutorial.kits.ladder.description"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "monster_kids:tutorial/kits/monster_boots",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

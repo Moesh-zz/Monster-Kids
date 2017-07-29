@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:baked_potato"
+        },
+        "title": {
+            "translate": "mk.advacements.tutorial.ores.baked_potato.root"
+        },
+        "description": {
+            "translate": "mk.advacements.tutorial.ores.baked_potato.root.description"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "monster_kids:tutorial/food/spider_eye",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

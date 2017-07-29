@@ -9,6 +9,6 @@ function monster_kids:menu/team_selected unless @e[type=area_effect_cloud,name=M
 function monster_kids:testfor_start_round_conditions if @a[score_startRound_min=1]
 function monster_kids:start_round if @e[type=area_effect_cloud,name=Main,tag=StartRound]
 
-function monster_kids:game if @e[type=area_effect_cloud,name=Main,tag=RoundInProgress]
+function monster_kids:round if @e[type=area_effect_cloud,name=Main,tag=RoundInProgress]
 
 function monster_kids:end_round if @e[type=area_effect_cloud,name=Main,tag=EndRound]

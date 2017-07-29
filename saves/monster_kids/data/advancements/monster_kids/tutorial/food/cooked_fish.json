@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_fish",
+            "data": 1
+        },
+        "title": {
+            "translate": "mk.advacements.tutorial.ores.cooked_fish.root"
+        },
+        "description": {
+            "translate": "mk.advacements.tutorial.ores.cooked_fish.root.description"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "monster_kids:tutorial/food/pumpkin_pie",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
