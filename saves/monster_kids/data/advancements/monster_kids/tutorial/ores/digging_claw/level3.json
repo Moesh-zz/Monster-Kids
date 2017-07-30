@@ -1,18 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone_ore"
+            "item": "minecraft:dye",
+            "data": 2
         },
         "title": {
-            "translate": "mk.advacements.tutorial.ores.cooked_mutton.level1"
+            "translate": "mk.tutorial.ores.digging_claw.level3"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.ores.cooked_mutton.level1.description"
+            "translate": "mk.tutorial.ores.digging_claw.level3.description"
         },
         "show_toast": false,
         "announce_to_chat": false
     },
-    "parent": "monster_kids:tutorial/ores/root",
+    "parent": "monster_kids:tutorial/ores/digging_claw/level2",
     "criteria": {
         "impossible": {
             "trigger": "minecraft:impossible"

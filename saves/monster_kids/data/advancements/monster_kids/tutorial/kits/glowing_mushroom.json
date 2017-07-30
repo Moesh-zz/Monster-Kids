@@ -4,10 +4,10 @@
             "item": "minecraft:torch"
         },
         "title": {
-            "translate": "mk.advancements.tutorial.kits.glowing_mushroom"
+            "translate": "mk.tutorial.kits.glowing_mushroom"
         },
         "description": {
-            "translate": "mk.advancements.tutorial.kits.glowing_mushroom.description"
+            "translate": "mk.tutorial.kits.glowing_mushroom.description"
         },
         "show_toast": false,
         "announce_to_chat": false,

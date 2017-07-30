@@ -4,10 +4,10 @@
             "item": "minecraft:ladder"
         },
         "title": {
-            "translate": "mk.advancements.tutorial.kits.ladder"
+            "translate": "mk.tutorial.kits.ladder"
         },
         "description": {
-            "translate": "mk.advancements.tutorial.kits.ladder.description"
+            "translate": "mk.tutorial.kits.ladder.description"
         },
         "show_toast": false,
         "announce_to_chat": false,

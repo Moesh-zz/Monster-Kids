@@ -4,10 +4,10 @@
             "item": "minecraft:elytra"
         },
         "title": {
-            "translate": "mk.advancements.tutorial.kits.elytra"
+            "translate": "mk.tutorial.kits.elytra"
         },
         "description": {
-            "translate": "mk.advancements.tutorial.kits.elytra.description"
+            "translate": "mk.tutorial.kits.elytra.description"
         },
         "hidden": false
     },

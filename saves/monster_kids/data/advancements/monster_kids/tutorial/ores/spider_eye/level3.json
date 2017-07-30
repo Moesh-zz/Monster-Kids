@@ -1,7 +1,8 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spider_eye"
+            "item": "minecraft:dye",
+            "data": 2
         },
         "title": {
             "translate": "mk.advacements.tutorial.ores.spider_eye.level3"

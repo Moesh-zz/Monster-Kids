@@ -1,7 +1,8 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cooked_mutton"
+            "item": "minecraft:dye",
+            "data": 2
         },
         "title": {
             "translate": "mk.advacements.tutorial.ores.cooked_mutton.level3"

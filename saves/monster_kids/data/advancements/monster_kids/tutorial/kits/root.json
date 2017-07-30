@@ -4,10 +4,10 @@
             "item": "minecraft:chest"
         },
         "title": {
-            "translate": "mk.advacements.tutorial.kits.root"
+            "translate": "mk.tutorial.kits.root"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.kits.root.description"
+            "translate": "mk.tutorial.kits.root.description"
         },
         "show_toast": false,
         "announce_to_chat": false,

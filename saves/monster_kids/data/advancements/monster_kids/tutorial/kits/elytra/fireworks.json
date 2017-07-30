@@ -4,10 +4,10 @@
             "item": "minecraft:fireworks"
         },
         "title": {
-            "translate": "mk.advancements.tutorial.kits.fireworks"
+            "translate": "mk.tutorial.kits.fireworks"
         },
         "description": {
-            "translate": "mk.advancements.tutorial.kits.fireworks.description"
+            "translate": "mk.tutorial.kits.fireworks.description"
         },
         "hidden": false
     },

@@ -101,6 +101,12 @@ mk.sign.startRound4=
 
 mk.streak=+%s (%s)
 
-## SIGNS ##
-mk.advacements.tutorial.root=Tutorial
-mk.advacements.tutorial.root.description=Read the tutorial to learn about the blocks!
+## Advancements TUTORIAL ##
+mk.tutorial.root=Tutorial
+mk.tutorial.root.description=All the information you need to win is here!
+
+mk.tutorial.kits.root=Kits
+mk.tutorial.kits.root.description=Items all players get. Classes branch off into specialized items.
+
+mk.tutorial.kits.digging_claw=Digging Claw
+mk.tutorial.kits.digging_claw.description=Becomes more efficient as you collect food.

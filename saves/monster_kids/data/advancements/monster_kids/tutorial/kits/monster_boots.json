@@ -4,10 +4,10 @@
             "item": "minecraft:iron_boots"
         },
         "title": {
-            "translate": "mk.advancements.tutorial.kits.monster_boots"
+            "translate": "mk.tutorial.kits.monster_boots"
         },
         "description": {
-            "translate": "mk.advancements.tutorial.kits.monster_boots.description"
+            "translate": "mk.tutorial.kits.monster_boots.description"
         },
         "show_toast": false,
         "announce_to_chat": false,

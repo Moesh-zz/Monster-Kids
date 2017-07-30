@@ -1,18 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone_ore"
+            "item": "minecraft:dye",
+            "data": 3
         },
         "title": {
-            "translate": "mk.advacements.tutorial.ores.cooked_mutton.level1"
+            "translate": "mk.advacements.tutorial.ores.baked_potato.level4"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.ores.cooked_mutton.level1.description"
+            "translate": "mk.advacements.tutorial.ores.baked_potato.level4.description"
         },
         "show_toast": false,
         "announce_to_chat": false
     },
-    "parent": "monster_kids:tutorial/ores/root",
+    "parent": "monster_kids:tutorial/ores/baked_potato/level3",
     "criteria": {
         "impossible": {
             "trigger": "minecraft:impossible"

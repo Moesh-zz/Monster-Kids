@@ -1,13 +1,13 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:redstone_ore"
+            "item": "minecraft:lapis_ore"
         },
         "title": {
-            "translate": "mk.advacements.tutorial.ores.cooked_mutton.level1"
+            "translate": "mk.advacements.tutorial.ores.cooked_fish.level1"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.ores.cooked_mutton.level1.description"
+            "translate": "mk.advacements.tutorial.ores.cooked_fish.level1.description"
         },
         "show_toast": false,
         "announce_to_chat": false

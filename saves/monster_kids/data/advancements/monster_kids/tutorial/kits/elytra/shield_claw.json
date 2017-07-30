@@ -4,10 +4,10 @@
             "item": "minecraft:shield"
         },
         "title": {
-            "translate": "mk.advancements.tutorial.kits.shield_claw"
+            "translate": "mk.tutorial.kits.shield_claw"
         },
         "description": {
-            "translate": "mk.advancements.tutorial.kits.shield_claw.description"
+            "translate": "mk.tutorial.kits.shield_claw.description"
         },
         "hidden": false
     },
