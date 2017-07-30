@@ -103,7 +103,7 @@ mk.streak=+%s (%s)
 
 ## Advancements ##
 mk.advancement.visibility=Visiblity
-mk.advancement.visibility.description=Allows all other tiles to be displayed.
+mk.advancement.visibility.description=Allows preceding tiles to be displayed.
 mk.tutorial.root=Tutorial
 mk.tutorial.root.description=All the information you need to win is here!
 
@@ -121,3 +121,10 @@ mk.tutorial.kits.ladder.description=Ladders build themselves when you climb them
 mk.tutorial.kits.monster_boots.description=Gives you a full armor bar (and useless hind claws).
 mk.tutorial.kits.shield_claw.description=Right-click to block attacks!
 mk.tutorial.kits.totem_of_undying.description=Totems will save your life once, and give you some extra health and strong regeneration. Useful for tanking strong enemies.
+
+## Tutorial ores ##
+mk.tutorial.ores.root.description=All non-ore blocks turn into Scaffold when mined. Glowstone drops extra! Banking will clear your Scaffold blocks.
+
+## Tutorial food ##
+mk.tutorial.food.root=Fossiled food can be eaten!
+mk.tutorial.food.root.description=All food items are worth one point. Get the most food to win!

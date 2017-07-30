@@ -4,10 +4,10 @@
             "item": "minecraft:baked_potato"
         },
         "title": {
-            "translate": "mk.advacements.tutorial.ores.baked_potato.root"
+            "translate": "item.potatoBaked.name"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.ores.baked_potato.root.description"
+            "translate": "mk.tutorial.food.baked_potato.description"
         },
         "show_toast": false,
         "announce_to_chat": false,

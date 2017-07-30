@@ -1,19 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:shield"
+            "item": "minecraft:barrier"
         },
         "title": {
-            "translate": "item.shield.name"
+            "translate": "mk.advancement.visibility"
         },
         "description": {
-            "translate": "mk.tutorial.kits.shield_claw.description"
+            "translate": "mk.advancement.visibility.description"
         },
-        "show_toast": true,
+        "show_toast": false,
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "monster_kids:tutorial/kits/elytra/root",
+    "parent": "monster_kids:tutorial/ores/cooked_fish/level4",
     "criteria": {
         "impossible": {
             "trigger": "minecraft:impossible"

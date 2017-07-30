@@ -4,10 +4,10 @@
             "item": "minecraft:spider_eye"
         },
         "title": {
-            "translate": "mk.advacements.tutorial.ores.spider_eye.root"
+            "translate": "item.spiderEye.name"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.ores.spider_eye.root.description"
+            "translate": "mk.tutorial.food.spider_eye.description"
         },
         "show_toast": false,
         "announce_to_chat": false

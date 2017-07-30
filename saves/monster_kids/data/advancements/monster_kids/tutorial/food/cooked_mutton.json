@@ -4,10 +4,10 @@
             "item": "minecraft:cooked_mutton"
         },
         "title": {
-            "translate": "mk.advacements.tutorial.ores.cooked_fish.root"
+            "translate": "item.muttonCooked.name"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.ores.cooked_fish.root.description"
+            "translate": "mk.tutorial.food.cooked_mutton.description"
         },
         "show_toast": false,
         "announce_to_chat": false

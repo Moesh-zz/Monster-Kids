@@ -4,10 +4,10 @@
             "item": "minecraft:cooked_chicken"
         },
         "title": {
-            "translate": "mk.advacements.tutorial.ores.cream_of_diorite.root"
+            "translate": "item.chickenCooked.name"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.ores.cream_of_diorite.root.description"
+            "translate": "mk.tutorial.food.cream_of_diorite.description"
         },
         "show_toast": false,
         "announce_to_chat": false
