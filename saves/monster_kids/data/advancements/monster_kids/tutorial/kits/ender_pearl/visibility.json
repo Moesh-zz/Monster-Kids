@@ -1,17 +1,17 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:fireworks"
+            "item": "minecraft:barrier"
         },
         "title": {
-            "translate": "item.fireworks.name"
+            "translate": "mk.advancement.visibility"
         },
         "description": {
-            "translate": "mk.tutorial.kits.fireworks.description"
+            "translate": "mk.advancement.visibility.description"
         },
         "hidden": false
     },
-    "parent": "monster_kids:tutorial/kits/elytra/shield_claw",
+    "parent": "monster_kids:tutorial/kits/ender_pearl/shield_claw",
     "criteria": {
         "impossible": {
             "trigger": "minecraft:impossible"

@@ -4,7 +4,7 @@
             "item": "minecraft:shield"
         },
         "title": {
-            "translate": "mk.tutorial.kits.shield_claw"
+            "translate": "item.shield.name"
         },
         "description": {
             "translate": "mk.tutorial.kits.shield_claw.description"

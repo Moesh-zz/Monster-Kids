@@ -4,7 +4,7 @@
             "item": "minecraft:torch"
         },
         "title": {
-            "translate": "mk.tutorial.kits.glowing_mushroom"
+            "translate": "tile.torch.name"
         },
         "description": {
             "translate": "mk.tutorial.kits.glowing_mushroom.description"

@@ -4,7 +4,7 @@
             "item": "minecraft:iron_pickaxe"
         },
         "title": {
-            "translate": "mk.tutorial.kits.digging_claw"
+            "translate": "item.pickaxeIron.name"
         },
         "description": {
             "translate": "mk.tutorial.kits.digging_claw.description"

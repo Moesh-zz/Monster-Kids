@@ -4,7 +4,7 @@
             "item": "minecraft:iron_boots"
         },
         "title": {
-            "translate": "mk.tutorial.kits.monster_boots"
+            "translate": "item.bootsIron.name"
         },
         "description": {
             "translate": "mk.tutorial.kits.monster_boots.description"

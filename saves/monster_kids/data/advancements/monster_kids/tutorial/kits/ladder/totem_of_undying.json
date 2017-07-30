@@ -4,7 +4,7 @@
             "item": "minecraft:totem_of_undying"
         },
         "title": {
-            "translate": "mk.tutorial.kits.totem_of_undying"
+            "translate": "item.totem.name"
         },
         "description": {
             "translate": "mk.tutorial.kits.totem_of_undying.description"

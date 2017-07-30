@@ -102,11 +102,24 @@ mk.sign.startRound4=
 mk.streak=+%s (%s)
 
 ## Advancements TUTORIAL ##
+mk.advancement.visibility=Visiblity
+mk.advancement.visibility.description=This slot is used to allow all other tiles to be displayed.
+
 mk.tutorial.root=Tutorial
 mk.tutorial.root.description=All the information you need to win is here!
 
 mk.tutorial.kits.root=Kits
-mk.tutorial.kits.root.description=Items all players get. Classes branch off into specialized items.
+mk.tutorial.kits.root.description=Items all players get.
 
-mk.tutorial.kits.digging_claw=Digging Claw
+mk.tutorial.kits.custom=Class Kits
+mk.tutorial.kits.custom.description=Items specific classes get.
+
 mk.tutorial.kits.digging_claw.description=Becomes more efficient as you collect food.
+mk.tutorial.kits.glowing_mushroom.description=Lights your way and disables mob spawners.
+mk.tutorial.kits.monster_boots.description=Gives you a full armor bar (and useless hind claws).
+mk.tutorial.kits.shield_claw.description=Right-click to block attacks!
+mk.tutorial.kits.ender_pearl.description=Receive 3 per life or when banking.
+mk.tutorial.kits.elytra.description=Glide your way to victory
+mk.tutorial.kits.ladder.description=Ladders build themselves when you climb them. Recieve 16 per life or when banking.
+mk.tutorial.kits.totem_of_undying.description=Totems will save your life once, and give you some extra health and strong regeneration. Useful for tanking strong enemies.
+mk.tutorial.kits.fireworks.description=Receive 4 per life or when banking. Use while gliding to receive a one second boost.
