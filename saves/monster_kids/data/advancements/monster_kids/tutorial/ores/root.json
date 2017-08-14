@@ -1,13 +1,13 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stone"
+            "item": "minecraft:glass"
         },
         "title": {
-            "translate": "mk.advacements.tutorial.ores.root"
+            "translate": "tile.glass.name"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.ores.root.description"
+            "translate": "mk.tutorial.ores.root.description"
         },
         "show_toast": false,
         "announce_to_chat": false

@@ -1,13 +1,13 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:pumpkin_pie"
+            "item": "minecraft:coal_ore"
         },
         "title": {
-            "translate": "mk.advacements.tutorial.ores.pumpkin_pie.level1"
+            "translate": "mk.tutorial.ores.spider_eye.level1"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.ores.pumpkin_pie.level1.description"
+            "translate": "mk.tutorial.ores.level1"
         },
         "show_toast": false,
         "announce_to_chat": false

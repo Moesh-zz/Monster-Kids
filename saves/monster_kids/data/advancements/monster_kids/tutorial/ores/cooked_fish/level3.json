@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lapis_ore"
+        },
+        "title": {
+            "translate": "mk.tutorial.ores.cooked_fish.level3"
+        },
+        "description": {
+            "translate": "mk.tutorial.ores.level3"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "monster_kids:tutorial/ores/cooked_fish/level2",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

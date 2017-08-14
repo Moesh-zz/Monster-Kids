@@ -1,18 +1,18 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:iron_pickaxe"
+            "item": "minecraft:diamond_ore"
         },
         "title": {
-            "translate": "mk.advacements.game_information.root"
+            "translate": "mk.tutorial.ores.pumpkin_pie.level1"
         },
         "description": {
-            "translate": "mk.advacementsgame_information.root.description"
+            "translate": "mk.tutorial.ores.level1"
         },
-        "background": "minecraft:textures/blocks/stonebrick.png",
         "show_toast": false,
         "announce_to_chat": false
     },
+    "parent": "monster_kids:tutorial/ores/root",
     "criteria": {
         "impossible": {
             "trigger": "minecraft:impossible"

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "title": {
+            "translate": "mk.advancement.visibility"
+        },
+        "description": {
+            "translate": "mk.advancement.visibility.description"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "monster_kids:tutorial/kits/ender_pearl/shield_claw",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

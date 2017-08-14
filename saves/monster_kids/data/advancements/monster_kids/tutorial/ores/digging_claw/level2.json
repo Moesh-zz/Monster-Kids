@@ -1,18 +1,18 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cooked_mutton"
+            "item": "minecraft:iron_pickaxe"
         },
         "title": {
-            "translate": "mk.advacements.tutorial.ores.cooked_mutton.level1"
+            "translate": "mk.tutorial.ores.digging_claw.level2"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.ores.cooked_mutton.level1.description"
+            "translate": "mk.tutorial.ores.level2"
         },
         "show_toast": false,
         "announce_to_chat": false
     },
-    "parent": "monster_kids:tutorial/ores/root",
+    "parent": "monster_kids:tutorial/ores/digging_claw/level1",
     "criteria": {
         "impossible": {
             "trigger": "minecraft:impossible"

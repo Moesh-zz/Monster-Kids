@@ -101,6 +101,72 @@ mk.sign.startRound4=
 
 mk.streak=+%s (%s)
 
-## SIGNS ##
-mk.advacements.tutorial.root=Tutorial
-mk.advacements.tutorial.root.description=Read the tutorial to learn about the blocks!
+## Advancements ##
+mk.advancement.visibility=Visiblity
+mk.advancement.visibility.description=Allows preceding tiles to be displayed.
+mk.tutorial.root=Tutorial
+mk.tutorial.root.description=All the information you need to win is here!
+
+## Tutorial items ##
+mk.tutorial.kits.root=Kits
+mk.tutorial.kits.root.description=Items all players get.
+mk.tutorial.kits.custom=Class Kits
+mk.tutorial.kits.custom.description=Items specific classes get.
+mk.tutorial.kits.digging_claw.description=Becomes more efficient as you collect food.
+mk.tutorial.kits.elytra.description=Glide your way to victory
+mk.tutorial.kits.ender_pearl.description=Receive 3 per life or when banking.
+mk.tutorial.kits.fireworks.description=Receive 4 per life or when banking. Use while gliding to receive a one second boost.
+mk.tutorial.kits.glowing_mushroom.description=Lights your way and disables mob spawners.
+mk.tutorial.kits.ladder.description=Ladders build themselves when you climb them. Recieve 16 per life or when banking.
+mk.tutorial.kits.monster_boots.description=Gives you a full armor bar (and useless hind claws).
+mk.tutorial.kits.shield_claw.description=Right-click to block attacks!
+mk.tutorial.kits.totem_of_undying.description=Totems will save your life once, and give you some extra health and strong regeneration. Useful for tanking strong enemies.
+
+## Tutorial ores ##
+mk.tutorial.ores.root.description=All non-ore blocks turn into Scaffold when mined. Glowstone drops extra! Banking will clear your Scaffold blocks.
+
+mk.tutorial.ores.baked_potato.level1=Night Vision
+mk.tutorial.ores.baked_potato.level2=Night Vision, Absorption
+mk.tutorial.ores.baked_potato.level3=Night Vision, Absorption * 2
+mk.tutorial.ores.baked_potato.level4=Night Vision, Absorption * 3
+
+mk.tutorial.ores.spider_eye.level1=Haste
+mk.tutorial.ores.spider_eye.level2=Haste * 2
+mk.tutorial.ores.spider_eye.level3=Haste * 3, Jump Boost * 2
+mk.tutorial.ores.spider_eye.level4=Haste * 4, Jump Boost * 3
+
+mk.tutorial.ores.pumpkin_pie.level1=Regeneration
+mk.tutorial.ores.pumpkin_pie.level2=Regeneration * 2
+mk.tutorial.ores.pumpkin_pie.level3=Regeneration * 3, Strength
+mk.tutorial.ores.pumpkin_pie.level4=Regeneration * 4, Strength * 2
+
+mk.tutorial.ores.cooked_fish.level1=Water Breathing
+mk.tutorial.ores.cooked_fish.level2=Water Breathing
+mk.tutorial.ores.cooked_fish.level3=Water Breathing, Invisibility
+mk.tutorial.ores.cooked_fish.level4=Water Breathing, Invisibility
+
+mk.tutorial.ores.cooked_mutton.level1=Fire Resistence
+mk.tutorial.ores.cooked_mutton.level2=Fire Resistence
+mk.tutorial.ores.cooked_mutton.level3=Fire Resistence, Speed * 3
+mk.tutorial.ores.cooked_mutton.level4=Fire Resistence, Speed * 4
+
+mk.tutorial.ores.digging_claw.level1=No change
+mk.tutorial.ores.digging_claw.level2=No change
+mk.tutorial.ores.digging_claw.level3=Efficiency I
+mk.tutorial.ores.digging_claw.level4=Efficiency I, Fortune I
+
+mk.tutorial.ores.time.level1=11 seconds
+mk.tutorial.ores.time.level2=13 seconds
+mk.tutorial.ores.time.level3=15 seconds
+mk.tutorial.ores.time.level4=17 seconds
+
+mk.tutorial.ores.level1=Level 1
+mk.tutorial.ores.level2=Level 2 (64+ ores)
+mk.tutorial.ores.level3=Level 3 (128+ ores)
+mk.tutorial.ores.level4=Level 4 (192+ ores)
+
+## Tutorial food ##
+mk.tutorial.food.root=Fossiled food can be eaten!
+mk.tutorial.food.root.description=All food items are worth one point. Get the most food to win!
+
+
