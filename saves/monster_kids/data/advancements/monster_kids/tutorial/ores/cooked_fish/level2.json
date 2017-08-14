@@ -1,14 +1,13 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:dye",
-            "data": 1
+            "item": "minecraft:lapis_ore"
         },
         "title": {
-            "translate": "mk.advacements.tutorial.ores.cooked_fish.level2"
+            "translate": "mk.tutorial.ores.cooked_fish.level2"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.ores.cooked_fish.level2.description"
+            "translate": "mk.tutorial.ores.level2"
         },
         "show_toast": false,
         "announce_to_chat": false

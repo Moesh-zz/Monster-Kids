@@ -9,7 +9,7 @@
         "description": {
             "translate": "mk.tutorial.food.baked_potato.description"
         },
-        "show_toast": false,
+        "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },

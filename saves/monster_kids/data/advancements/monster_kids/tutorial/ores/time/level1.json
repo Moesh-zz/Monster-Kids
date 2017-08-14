@@ -1,13 +1,13 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:lapis_ore"
+            "item": "minecraft:clock"
         },
         "title": {
-            "translate": "mk.advacements.tutorial.ores.cooked_fish.level1"
+            "translate": "mk.tutorial.ores.time.level1"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.ores.cooked_fish.level1.description"
+            "translate": "mk.tutorial.ores.level1"
         },
         "show_toast": false,
         "announce_to_chat": false

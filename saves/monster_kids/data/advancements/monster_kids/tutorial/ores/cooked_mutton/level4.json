@@ -1,14 +1,13 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:dye",
-            "data": 3
+            "item": "minecraft:redstone_ore"
         },
         "title": {
-            "translate": "mk.advacements.tutorial.ores.cooked_mutton.level4"
+            "translate": "mk.tutorial.ores.cooked_mutton.level4"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.ores.cooked_mutton.level4.description"
+            "translate": "mk.tutorial.ores.level4"
         },
         "show_toast": false,
         "announce_to_chat": false

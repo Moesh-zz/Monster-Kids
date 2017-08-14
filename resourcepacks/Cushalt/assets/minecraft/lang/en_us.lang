@@ -125,6 +125,48 @@ mk.tutorial.kits.totem_of_undying.description=Totems will save your life once, a
 ## Tutorial ores ##
 mk.tutorial.ores.root.description=All non-ore blocks turn into Scaffold when mined. Glowstone drops extra! Banking will clear your Scaffold blocks.
 
+mk.tutorial.ores.baked_potato.level1=Night Vision
+mk.tutorial.ores.baked_potato.level2=Night Vision, Absorption
+mk.tutorial.ores.baked_potato.level3=Night Vision, Absorption * 2
+mk.tutorial.ores.baked_potato.level4=Night Vision, Absorption * 3
+
+mk.tutorial.ores.spider_eye.level1=Haste
+mk.tutorial.ores.spider_eye.level2=Haste * 2
+mk.tutorial.ores.spider_eye.level3=Haste * 3, Jump Boost * 2
+mk.tutorial.ores.spider_eye.level4=Haste * 4, Jump Boost * 3
+
+mk.tutorial.ores.pumpkin_pie.level1=Regeneration
+mk.tutorial.ores.pumpkin_pie.level2=Regeneration * 2
+mk.tutorial.ores.pumpkin_pie.level3=Regeneration * 3, Strength
+mk.tutorial.ores.pumpkin_pie.level4=Regeneration * 4, Strength * 2
+
+mk.tutorial.ores.cooked_fish.level1=Water Breathing
+mk.tutorial.ores.cooked_fish.level2=Water Breathing
+mk.tutorial.ores.cooked_fish.level3=Water Breathing, Invisibility
+mk.tutorial.ores.cooked_fish.level4=Water Breathing, Invisibility
+
+mk.tutorial.ores.cooked_mutton.level1=Fire Resistence
+mk.tutorial.ores.cooked_mutton.level2=Fire Resistence
+mk.tutorial.ores.cooked_mutton.level3=Fire Resistence, Speed * 3
+mk.tutorial.ores.cooked_mutton.level4=Fire Resistence, Speed * 4
+
+mk.tutorial.ores.digging_claw.level1=No change
+mk.tutorial.ores.digging_claw.level2=No change
+mk.tutorial.ores.digging_claw.level3=Efficiency I
+mk.tutorial.ores.digging_claw.level4=Efficiency I, Fortune I
+
+mk.tutorial.ores.time.level1=11 seconds
+mk.tutorial.ores.time.level2=13 seconds
+mk.tutorial.ores.time.level3=15 seconds
+mk.tutorial.ores.time.level4=17 seconds
+
+mk.tutorial.ores.level1=Level 1
+mk.tutorial.ores.level2=Level 2 (64+ ores)
+mk.tutorial.ores.level3=Level 3 (128+ ores)
+mk.tutorial.ores.level4=Level 4 (192+ ores)
+
 ## Tutorial food ##
 mk.tutorial.food.root=Fossiled food can be eaten!
 mk.tutorial.food.root.description=All food items are worth one point. Get the most food to win!
+
+

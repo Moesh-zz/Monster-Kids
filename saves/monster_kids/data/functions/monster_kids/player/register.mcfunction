@@ -33,6 +33,7 @@ advancement grant @s only monster_kids:tutorial/ores/cooked_mutton/visibility
 advancement grant @s only monster_kids:tutorial/ores/digging_claw/visibility
 advancement grant @s only monster_kids:tutorial/ores/pumpkin_pie/visibility
 advancement grant @s only monster_kids:tutorial/ores/spider_eye/visibility
+advancement grant @s only monster_kids:tutorial/ores/time/visibility
 
 # pre-game
 execute @e[type=area_effect_cloud,name=Main,tag=!RoundInProgress] ~ ~ ~ gamemode adventure @a[tag=!Registered]
