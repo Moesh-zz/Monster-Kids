@@ -1,18 +1,18 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:cooked_mutton"
+            "item": "minecraft:redstone_ore"
         },
         "title": {
-            "translate": "mk.advacements.tutorial.ores.cooked_mutton.level2"
+            "translate": "mk.tutorial.ores.cooked_mutton.level2"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.ores.cooked_mutton.level2.description"
+            "translate": "mk.tutorial.ores.level2"
         },
         "show_toast": false,
         "announce_to_chat": false
     },
-    "parent": "monster_kids:tutorial/ores/cooked_mutton/root",
+    "parent": "monster_kids:tutorial/ores/cooked_mutton/level1",
     "criteria": {
         "impossible": {
             "trigger": "minecraft:impossible"

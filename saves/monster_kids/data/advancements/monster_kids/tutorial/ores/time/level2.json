@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:clock"
+        },
+        "title": {
+            "translate": "mk.tutorial.ores.time.level2"
+        },
+        "description": {
+            "translate": "mk.tutorial.ores.level2"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "monster_kids:tutorial/ores/time/level1",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

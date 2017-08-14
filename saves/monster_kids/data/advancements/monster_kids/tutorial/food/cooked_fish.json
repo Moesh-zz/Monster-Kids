@@ -5,12 +5,12 @@
             "data": 1
         },
         "title": {
-            "translate": "mk.advacements.tutorial.ores.cooked_fish.root"
+            "translate": "item.fish.salmon.cooked.name"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.ores.cooked_fish.root.description"
+            "translate": "mk.tutorial.food.cooked_fish.description"
         },
-        "show_toast": false,
+        "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
     },

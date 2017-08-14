@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:emerald_ore"
+        },
+        "title": {
+            "translate": "mk.tutorial.ores.baked_potato.level3"
+        },
+        "description": {
+            "translate": "mk.tutorial.ores.level3"
+        },
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "monster_kids:tutorial/ores/baked_potato/level2",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

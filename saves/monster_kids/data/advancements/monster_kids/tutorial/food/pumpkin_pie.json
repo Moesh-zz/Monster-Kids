@@ -4,13 +4,14 @@
             "item": "minecraft:pumpkin_pie"
         },
         "title": {
-            "translate": "mk.advacements.tutorial.ores.pumpkin_pie.root"
+            "translate": "item.pumpkinPie.name"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.ores.pumpkin_pie.root.description"
+            "translate": "mk.tutorial.food.pumpkin_pie.description"
         },
-        "show_toast": false,
-        "announce_to_chat": false
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
     },
     "parent": "monster_kids:tutorial/food/baked_potato",
     "criteria": {

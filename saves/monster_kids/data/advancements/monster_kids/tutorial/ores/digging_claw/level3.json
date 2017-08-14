@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "title": {
+            "translate": "mk.tutorial.ores.digging_claw.level3"
+        },
+        "description": {
+            "translate": "mk.tutorial.ores.level3"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "monster_kids:tutorial/ores/digging_claw/level2",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

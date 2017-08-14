@@ -23,6 +23,18 @@ scoreboard players add @a[tag=!Registered] pickupPie 0
 scoreboard players add @a[tag=!Registered] pickupPotato 0
 scoreboard players add @a[tag=!Registered] pickupGlass 0
 
+advancement grant @s only monster_kids:tutorial/food/visibility
+advancement grant @s only monster_kids:tutorial/kits/elytra/visibility
+advancement grant @s only monster_kids:tutorial/kits/ender_pearl/visibility
+advancement grant @s only monster_kids:tutorial/kits/ladder/visibility
+advancement grant @s only monster_kids:tutorial/ores/baked_potato/visibility
+advancement grant @s only monster_kids:tutorial/ores/cooked_fish/visibility
+advancement grant @s only monster_kids:tutorial/ores/cooked_mutton/visibility
+advancement grant @s only monster_kids:tutorial/ores/digging_claw/visibility
+advancement grant @s only monster_kids:tutorial/ores/pumpkin_pie/visibility
+advancement grant @s only monster_kids:tutorial/ores/spider_eye/visibility
+advancement grant @s only monster_kids:tutorial/ores/time/visibility
+
 # pre-game
 execute @e[type=area_effect_cloud,name=Main,tag=!RoundInProgress] ~ ~ ~ gamemode adventure @a[tag=!Registered]
 execute @e[type=area_effect_cloud,name=Main,tag=!RoundInProgress] ~ ~ ~ scoreboard players enable @a[tag=!Registered] teamSelected

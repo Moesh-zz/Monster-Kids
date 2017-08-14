@@ -4,11 +4,13 @@
             "item": "minecraft:shield"
         },
         "title": {
-            "translate": "mk.advancements.tutorial.kits.shield_claw"
+            "translate": "item.shield.name"
         },
         "description": {
-            "translate": "mk.advancements.tutorial.kits.shield_claw.description"
+            "translate": "mk.tutorial.kits.shield_claw.description"
         },
+        "show_toast": true,
+        "announce_to_chat": false,
         "hidden": false
     },
     "parent": "monster_kids:tutorial/kits/elytra/root",

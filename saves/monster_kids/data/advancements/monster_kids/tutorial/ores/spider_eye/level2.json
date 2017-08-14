@@ -1,18 +1,18 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spider_eye"
+            "item": "minecraft:coal_ore"
         },
         "title": {
-            "translate": "mk.advacements.tutorial.ores.spider_eye.level2"
+            "translate": "mk.tutorial.ores.spider_eye.level2"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.ores.spider_eye.level2.description"
+            "translate": "mk.tutorial.ores.level2"
         },
         "show_toast": false,
         "announce_to_chat": false
     },
-    "parent": "monster_kids:tutorial/ores/spider_eye/root",
+    "parent": "monster_kids:tutorial/ores/spider_eye/level1",
     "criteria": {
         "impossible": {
             "trigger": "minecraft:impossible"

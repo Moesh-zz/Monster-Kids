@@ -1,13 +1,13 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:pumpkin_pie"
+            "item": "minecraft:diamond_ore"
         },
         "title": {
-            "translate": "mk.advacements.tutorial.ores.pumpkin_pie.level3"
+            "translate": "mk.tutorial.ores.pumpkin_pie.level3"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.ores.pumpkin_pie.level3.description"
+            "translate": "mk.tutorial.ores.level3"
         },
         "show_toast": false,
         "announce_to_chat": false

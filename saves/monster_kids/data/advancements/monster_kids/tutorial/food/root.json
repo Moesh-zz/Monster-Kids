@@ -4,10 +4,10 @@
             "item": "minecraft:apple"
         },
         "title": {
-            "translate": "mk.advacements.tutorial.ores.root"
+            "translate": "mk.tutorial.food.root"
         },
         "description": {
-            "translate": "mk.advacements.tutorial.ores.root.description"
+            "translate": "mk.tutorial.food.root.description"
         },
         "show_toast": false,
         "announce_to_chat": false
