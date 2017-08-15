@@ -16,9 +16,11 @@ setblock 127 49 3203 minecraft:stone
 scoreboard players set @a classSelected 0
 scoreboard players set @a startRound 0
 scoreboard players set @a teamSelected 0
+scoreboard players set @a spectate
 scoreboard players enable @a classSelected
 scoreboard players enable @a startRound
 scoreboard players enable @a teamSelected
+scoreboard players enable @a spectate
 scoreboard players tag @a remove Playing
 scoreboard players tag @a remove Spectating
 scoreboard players tag @a[tag=ClassElytra] remove ClassElytra

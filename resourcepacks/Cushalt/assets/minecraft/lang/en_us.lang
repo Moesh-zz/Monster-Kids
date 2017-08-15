@@ -58,6 +58,8 @@ mk.class.human.description=Nothing
 
 mk.items.refilled=Your items have been refilled!
 
+mk.spectate=Fly out of the level to return to the lobby area.
+
 ## SIGNS ##
 mk.team.join=%s joined %s
 mk.team.leave=%s left their team
@@ -98,6 +100,11 @@ mk.sign.startRound1=
 mk.sign.startRound2=[Right Click]
 mk.sign.startRound3=Start Round
 mk.sign.startRound4=
+
+mk.sign.spectate1=
+mk.sign.spectate2=[Right Click]
+mk.sign.spectate3=Spectate
+mk.sign.spectate4=
 
 mk.streak=+%s (%s)
 

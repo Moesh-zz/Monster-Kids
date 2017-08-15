@@ -40,8 +40,10 @@ execute @e[type=area_effect_cloud,name=Main,tag=!RoundInProgress] ~ ~ ~ gamemode
 execute @e[type=area_effect_cloud,name=Main,tag=!RoundInProgress] ~ ~ ~ scoreboard players enable @a[tag=!Registered] teamSelected
 execute @e[type=area_effect_cloud,name=Main,tag=!RoundInProgress] ~ ~ ~ scoreboard players enable @a[tag=!Registered] classSelected
 execute @e[type=area_effect_cloud,name=Main,tag=!RoundInProgress] ~ ~ ~ scoreboard players enable @a[tag=!Registered] startRound
+execute @e[type=area_effect_cloud,name=Main,tag=!RoundInProgress] ~ ~ ~ scoreboard players enable @a[tag=!Registered] spectate
 execute @e[type=area_effect_cloud,name=Main,tag=!RoundInProgress] ~ ~ ~ scoreboard players set @a[tag=!Registered] teamSelected 0
 execute @e[type=area_effect_cloud,name=Main,tag=!RoundInProgress] ~ ~ ~ scoreboard players set @a[tag=!Registered] classSelected 0
 execute @e[type=area_effect_cloud,name=Main,tag=!RoundInProgress] ~ ~ ~ scoreboard players set @a[tag=!Registered] startRound 0
+execute @e[type=area_effect_cloud,name=Main,tag=!RoundInProgress] ~ ~ ~ scoreboard players set @a[tag=!Registered] spectate 0
 
 execute @a[tag=!Registered] ~ ~ ~ scoreboard players tag @s add Registered
