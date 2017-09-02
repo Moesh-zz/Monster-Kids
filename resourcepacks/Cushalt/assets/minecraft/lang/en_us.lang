@@ -129,6 +129,17 @@ mk.tutorial.kits.monster_boots.description=Gives you a full armor bar (and usele
 mk.tutorial.kits.shield_claw.description=Right-click to block attacks!
 mk.tutorial.kits.totem_of_undying.description=Totems will save your life once, and give you some extra health and strong regeneration. Useful for tanking strong enemies.
 
+mk.tutorial.james=James is the best!
+mk.tutorial.james.description=James will "bank" your points for safe keeping, refill your items, and clear your excess items! Just run into him!
+
+## Tutorial food ##
+mk.tutorial.food.spider_eye.description=Poisonous. Worth 1 point.
+mk.tutorial.food.baked_potato.description=Edible. Worth 1 point.
+mk.tutorial.food.pumpkin_pie.description=Edible. Worth 1 point.
+mk.tutorial.food.cooked_fish.description=Edible. Worth 1 point.
+mk.tutorial.food.cooked_mutton.description=Edible. Worth 1 point.
+mk.tutorial.food.cream_of_diorite.description=Disgusting. Worth 1 point.
+
 ## Tutorial ores ##
 mk.tutorial.ores.root.description=All non-ore blocks turn into Scaffold when mined. Glowstone drops extra! Banking will clear your Scaffold blocks.
 
