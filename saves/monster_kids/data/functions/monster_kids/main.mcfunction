@@ -1,6 +1,6 @@
 function monster_kids:player/register if @a[tag=!Register]
 
-function monster_kids:player/check_and_keep_in_bounds
+function monster_kids:player/check_location_and_keep_in_bounds
 
 function monster_kids:player/flag_dead_players
 function monster_kids:player/refill_items if @a[tag=RefillItems]
