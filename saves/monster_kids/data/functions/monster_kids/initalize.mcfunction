@@ -53,6 +53,7 @@ scoreboard objectives remove EffectDiamond
 scoreboard objectives remove teamSelected
 scoreboard objectives remove classSelected
 scoreboard objectives remove startRound
+scoreboard objectives remove spectate
 
 scoreboard objectives remove pickupTimer
 scoreboard objectives remove pickupStreak
@@ -124,6 +125,7 @@ scoreboard objectives add EffectDiamond dummy
 scoreboard objectives add teamSelected trigger
 scoreboard objectives add classSelected trigger
 scoreboard objectives add startRound trigger
+scoreboard objectives add spectate trigger
 
 scoreboard objectives setdisplay sidebar displayScores
 scoreboard objectives add pickupTimer dummy

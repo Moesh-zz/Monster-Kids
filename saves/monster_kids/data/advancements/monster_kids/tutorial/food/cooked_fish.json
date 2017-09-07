@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cooked_fish",
+            "data": 1
+        },
+        "title": {
+            "translate": "item.fish.salmon.cooked.name"
+        },
+        "description": {
+            "translate": "mk.tutorial.food.cooked_fish.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "monster_kids:tutorial/food/pumpkin_pie",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

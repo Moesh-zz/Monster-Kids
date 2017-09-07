@@ -108,3 +108,19 @@ blockdata ~ ~ ~ {
 
 	Text4: "{\"translate\":\"mk.sign.startRound4\"}"
 }
+
+# Spectate
+blockdata 127 53 3203 {
+	Text1: "{\"translate\":\"mk.sign.spectate1\"}",
+	Text2: "{\"translate\":\"mk.sign.spectate2\"}",
+	Text3: "{
+		\"translate\":\"mk.sign.spectate3\",
+		\"color\":\"light_purple\",
+		\"clickEvent\":{
+			\"action\":\"run_command\",
+			\"value\":\"/trigger spectate set 1\"
+		}
+	}",
+
+	Text4: "{\"translate\":\"mk.sign.spectate4\"}"
+}

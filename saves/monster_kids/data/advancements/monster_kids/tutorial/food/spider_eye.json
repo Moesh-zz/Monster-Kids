@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spider_eye"
+        },
+        "title": {
+            "translate": "item.spiderEye.name"
+        },
+        "description": {
+            "translate": "mk.tutorial.food.spider_eye.description"
+        },
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "monster_kids:tutorial/food/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -29,6 +29,7 @@ scoreboard players reset * pickupPie
 scoreboard players reset * pickupPotato
 scoreboard players reset * startRound
 scoreboard players reset * teamSelected
+scoreboard players reset * spectate
 
 scoreboard players set Red combinedScores 0
 scoreboard players set Blue combinedScores 0

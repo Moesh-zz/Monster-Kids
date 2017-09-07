@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_ore"
+        },
+        "title": {
+            "translate": "mk.tutorial.ores.pumpkin_pie.level3"
+        },
+        "description": {
+            "translate": "mk.tutorial.ores.level3"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "monster_kids:tutorial/ores/pumpkin_pie/level2",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
