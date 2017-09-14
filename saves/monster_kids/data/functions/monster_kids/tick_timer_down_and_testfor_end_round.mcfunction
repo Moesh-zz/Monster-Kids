@@ -24,7 +24,15 @@ execute @e[type=area_effect_cloud,name=Main,score_SuccessCount_min=1] ~ ~ ~ titl
 
 # Send message at 60 seconds left
 execute @e[type=area_effect_cloud,name=Main] ~ ~ ~ scoreboard players test CurrentInTicks gameTime 1200 1200
-execute @e[type=area_effect_cloud,name=Main,score_SuccessCount_min=1] ~ ~ ~ tellraw @a {"mk.roundEnd.info"}
+execute @e[type=area_effect_cloud,name=Main,score_SuccessCount_min=1] ~ ~ ~ tellraw @a {"translate":"mk.roundEnd.countdown","color":"green","with":[{"score":{"name":"CurrentInSeconds","objective":"gameTime"},"color":"white"}]}
+
+# Send message at 30 seconds left
+execute @e[type=area_effect_cloud,name=Main] ~ ~ ~ scoreboard players test CurrentInTicks gameTime 600 600
+execute @e[type=area_effect_cloud,name=Main,score_SuccessCount_min=1] ~ ~ ~ tellraw @a {"translate":"mk.roundEnd.countdown","color":"green","with":[{"score":{"name":"CurrentInSeconds","objective":"gameTime"},"color":"white"}]}
+
+# Send message at 10 seconds left
+execute @e[type=area_effect_cloud,name=Main] ~ ~ ~ scoreboard players test CurrentInTicks gameTime 200 200
+execute @e[type=area_effect_cloud,name=Main,score_SuccessCount_min=1] ~ ~ ~ tellraw @a {"translate":"mk.roundEnd.countdown","color":"green","with":[{"score":{"name":"CurrentInSeconds","objective":"gameTime"},"color":"white"}]}
 
 # End game
 execute @e[type=area_effect_cloud,name=Main] ~ ~ ~ scoreboard players test CurrentInTicks gameTime 0 0
