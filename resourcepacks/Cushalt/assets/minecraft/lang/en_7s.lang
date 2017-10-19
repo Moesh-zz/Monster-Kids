@@ -52,7 +52,7 @@ mk.class.noteam=You must select a team before selecting a kit.
 
 mk.class=Kit: %s
 mk.class.elytra.description=[Elytra] and [Fireworks] * 4
-mk.class.pearl.description=[Ender Pearl] * 3
+mk.class.pearl.description=[Ender Pearl] * 4
 mk.class.ladder.description=[Ladder] * 16 and [Totem of Undying]
 mk.class.human.description=Nothing
 
