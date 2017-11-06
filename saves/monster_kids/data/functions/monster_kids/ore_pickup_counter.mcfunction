@@ -18,8 +18,12 @@ scoreboard players tag @a[score_pickupStreak_min=1] add ReannounceScore
 execute @a[tag=ReannounceScore] ~ ~ ~ scoreboard players operation @s displayStreak += @s pickupStreak
 scoreboard players set @a[tag=ReannounceScore] pickupStreak 0
 # Add delay in game ticks
-scoreboard players set @a[tag=ReannounceScore] pickupTimer 60
-title @a[tag=ReannounceScore] times 0 0 60
+scoreboard players set @a[tag=ReannounceScore] pickupTimer 180
+
+effect @a[score_pickupTimer_min=180,score_pickupTimer=180] minecraft:glowing 0
+effect @a[score_pickupTimer=0] minecraft:glowing 999999 0 false
+
+title @a[tag=ReannounceScore] times 0 160 30
 execute @a[tag=ReannounceScore] ~ ~ ~ title @s subtitle {"translate":"mk.streak","color":"aqua","with":[{"score":{"name":"@s","objective":"displayStreak"}},{"score":{"name":"@s","objective":"holdingTotal"}}]}
 title @a[tag=ReannounceScore] title {"text":" "}
 scoreboard players tag @a[tag=ReannounceScore] remove ReannounceScore
