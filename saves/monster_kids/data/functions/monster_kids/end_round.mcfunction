@@ -1,7 +1,6 @@
 scoreboard players tag @e[type=area_effect_cloud,name=Main] remove RoundInProgress
-function monster_kids:find_winning_team_and_display
-function monster_kids:reset/moeshmk1
-
+function monster_kids:game/find_winning_team_and_display
+function monster_kids:level_setup/reset_moeshmk1
 
 scoreboard players set @a classSelected 0
 scoreboard players set @a startRound 0
