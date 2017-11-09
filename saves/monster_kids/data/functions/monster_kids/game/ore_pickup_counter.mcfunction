@@ -25,17 +25,18 @@ scoreboard players tag @a[score_pickupTimer_min=180,score_pickupTimer=180] remov
 # Players glow until they pick up an ore
 scoreboard players tag @a[score_pickupTimer=0,tag=!Glowing] add TagPlayerAsGlowing
 effect @a[tag=TagPlayerAsGlowing] minecraft:glowing 999999 0 false
-    # Title runs for 2 seconds and fades out over 1 second
-    title @a[tag=TagPlayerAsGlowing] times 0 40 10
-    execute @a[tag=TagPlayerAsGlowing] ~ ~ ~ title @s subtitle {"translate":"mk.glowing","color":"red"}
-    title @a[tag=TagPlayerAsGlowing] title {"text":" "}
-    scoreboard players tag @a[tag=TagPlayerAsGlowing] add Glowing
-    scoreboard players tag @a[tag=Glowing] remove TagPlayerAsGlowing
-    # Title stays for 6 seconds, fades out over 3.05 seconds. Additional 0.5
-    title @a[tag=ReannounceScore] times 0 120 61
-    execute @a[tag=ReannounceScore] ~ ~ ~ title @s subtitle {"translate":"mk.streak","color":"aqua","with":[{"score":{"name":"@s","objective":"displayStreak"}},{"score":{"name":"@s","objective":"holdingTotal"}}]}
-    title @a[tag=ReannounceScore] title {"text":" "}
-    scoreboard players tag @a[tag=ReannounceScore] remove ReannounceScore
+# Title runs for 2 seconds and fades out over 1 second
+title @a[tag=TagPlayerAsGlowing] times 0 40 10
+execute @a[tag=TagPlayerAsGlowing] ~ ~ ~ title @s subtitle {"translate":"mk.glowing","color":"red"}
+title @a[tag=TagPlayerAsGlowing] title {"text":" "}
+scoreboard players tag @a[tag=TagPlayerAsGlowing] add Glowing
+scoreboard players tag @a[tag=Glowing] remove TagPlayerAsGlowing
+# Title stays for 6 seconds, fades out over 3.5 seconds.
+# Additional 0.5 is to avoid blinking in
+title @a[tag=ReannounceScore] times 0 120 70
+execute @a[tag=ReannounceScore] ~ ~ ~ title @s subtitle {"translate":"mk.streak","color":"aqua","with":[{"score":{"name":"@s","objective":"displayStreak"}},{"score":{"name":"@s","objective":"holdingTotal"}}]}
+title @a[tag=ReannounceScore] title {"text":" "}
+scoreboard players tag @a[tag=ReannounceScore] remove ReannounceScore
 
 # Tickdown and reset
 scoreboard players remove @a[score_pickupTimer_min=1] pickupTimer 1
