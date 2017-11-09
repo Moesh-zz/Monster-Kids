@@ -59,6 +59,7 @@ mk.class.human.description=Nothing
 mk.items.refilled=Your items have been refilled!
 
 mk.spectate=Fly out of the level to return to the lobby area.
+mk.glowing=Glowing!
 
 ## SIGNS ##
 mk.team.join=%s joined %s
