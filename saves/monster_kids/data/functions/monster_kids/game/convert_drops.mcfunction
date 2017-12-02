@@ -5,7 +5,7 @@ scoreboard players tag @e[type=item] add ConvertToFood {Item:{id:"minecraft:emer
 scoreboard players tag @e[type=item] add ConvertToFood {Item:{id:"minecraft:dye",Damage:4s}}
 scoreboard players tag @e[type=item] add ConvertToFood {Item:{id:"minecraft:redstone"}}
 scoreboard players tag @e[type=item] add ConvertToFood {Item:{id:"minecraft:quartz"}}
-entitydata @e[type=item,tag=ConvertToFood] {Item:{id:"minecraft:cooked_beef"}}
+entitydata @e[type=item,tag=ConvertToFood] {Item:{id:"minecraft:cooked_beef",Damage:0s}}
 scoreboard players tag @e[type=item,tag=ConvertToFood] remove ConvertToFood {Item:{id:"minecraft:cooked_beef"}}
 
 # Convert all non-food drops to glass

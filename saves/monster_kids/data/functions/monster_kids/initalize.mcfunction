@@ -13,19 +13,10 @@ scoreboard objectives remove mineEmerald
 scoreboard objectives remove mineLapis
 scoreboard objectives remove mineRedstone
 
-scoreboard objectives remove holdingEye
-scoreboard objectives remove holdingMutton
-scoreboard objectives remove holdingFish
-scoreboard objectives remove holdingPie
-scoreboard objectives remove holdingPotato
-scoreboard objectives remove holdingTotal
+scoreboard objectives remove Food
+scoreboard objectives remove pickupFood
 
-scoreboard objectives remove bankedEye
-scoreboard objectives remove bankedMutton
-scoreboard objectives remove bankedFish
-scoreboard objectives remove bankedPie
-scoreboard objectives remove bankedPotato
-scoreboard objectives remove bankedCurrent
+scoreboard objectives remove bankedFood
 scoreboard objectives remove bankedTotal
 
 scoreboard objectives remove scoreBlue
@@ -83,12 +74,7 @@ scoreboard objectives add mineEmerald stat.mineBlock.minecraft.emerald_ore
 scoreboard objectives add mineLapis stat.mineBlock.minecraft.lapis_ore
 scoreboard objectives add mineRedstone stat.mineBlock.minecraft.redstone_ore
 
-scoreboard objectives add holdingEye dummy
-scoreboard objectives add holdingMutton dummy
-scoreboard objectives add holdingFish dummy
-scoreboard objectives add holdingPie dummy
-scoreboard objectives add holdingPotato dummy
-scoreboard objectives add holdingTotal dummy noms
+scoreboard objectives add Score dummy
 scoreboard objectives setdisplay belowName holdingTotal
 scoreboard objectives setdisplay list holdingTotal
 
@@ -132,11 +118,8 @@ scoreboard objectives add pickupTimer dummy
 scoreboard objectives add pickupStreak dummy
 scoreboard objectives add displayStreak dummy
 
-scoreboard objectives add pickupEye stat.pickup.minecraft.spider_eye
-scoreboard objectives add pickupMutton stat.pickup.minecraft.cooked_mutton
-scoreboard objectives add pickupFish stat.pickup.minecraft.cooked_fish
-scoreboard objectives add pickupPie stat.pickup.minecraft.pumpkin_pie
-scoreboard objectives add pickupPotato stat.pickup.minecraft.baked_potato
+scoreboard objectives add pickupFood stat.pickup.minecraft.cooked_beef
+scoreboard objectives add Food dummy
 scoreboard objectives add pickupGlass stat.pickup.minecraft.glass
 
 # Remove Scoreboard Teams
