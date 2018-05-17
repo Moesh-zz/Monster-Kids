@@ -1,26 +1,26 @@
-# Reset 
-scoreboard players reset * Food
-scoreboard players reset * Score
-scoreboard players reset * combinedScores
-
-# Query held food
+# FindCarriedSamples
+scoreboard players set @a holdingTotal 0
 execute @a ~ ~ ~ clear @p minecraft:cooked_beef 0 0
-execute @a ~ ~ ~ scoreboard players operation @p Food = @p AffectedItems
+execute @a ~ ~ ~ scoreboard players operation @p holdingTotal = @p AffectedItems
 
-# Compile all points into Score scoreboard
-execute @a[team=blue,score_health_min=1] ~ ~ ~ scoreboard players operation HoldingBlue Score += @s Food
-execute @a[team=red,score_health_min=1] ~ ~ ~ scoreboard players operation HoldingRed Score += @s Food
-execute @a ~ ~ ~ scoreboard players reset @s Score
-execute @a ~ ~ ~ scoreboard players operation @s Score = @s Food
-execute @a ~ ~ ~ scoreboard players operation @s Score += @s bankedTotal
-scoreboard players operation BankedBlue Score += @a[team=blue] bankedTotal
-scoreboard players operation BankedRed Score += @a[team=red] bankedTotal
+# CombineTeamScores
+scoreboard players set Holding scoreTotalBlue 0
+scoreboard players set Holding scoreTotalRed 0
+scoreboard players set Banked scoreTotalBlue 0
+scoreboard players set Banked scoreTotalRed 0
+
+execute @a[team=blue,score_health_min=1] ~ ~ ~ scoreboard players operation Holding scoreTotalBlue += @p holdingTotal
+execute @a[team=red,score_health_min=1] ~ ~ ~ scoreboard players operation Holding scoreTotalRed += @p holdingTotal
+scoreboard players operation Banked scoreTotalBlue += @a[team=blue] bankedTotal
+scoreboard players operation Banked scoreTotalRed += @a[team=red] bankedTotal
 
 # Combine all the scores
-scoreboard players operation Blue combinedScores = HoldingBlue Score
-scoreboard players operation Blue combinedScores += BankedBlue Score
-scoreboard players operation Red combinedScores = HoldingRed Score
-scoreboard players operation Red combinedScores += BankedRed Score
+# blue team
+scoreboard players operation Blue combinedScores = Holding scoreTotalBlue
+scoreboard players operation Blue combinedScores += Banked scoreTotalBlue
+# red team
+scoreboard players operation Red combinedScores = Holding scoreTotalRed
+scoreboard players operation Red combinedScores += Banked scoreTotalRed
 
 # Bounce scores to display scoreboard
 scoreboard players operation Blue displayScores = Blue combinedScores
