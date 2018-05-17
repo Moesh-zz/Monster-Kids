@@ -111,11 +111,8 @@ scoreboard objectives add pickupTimer dummy
 scoreboard objectives add pickupStreak dummy
 scoreboard objectives add displayStreak dummy
 
-scoreboard objectives add pickupEye stat.pickup.minecraft.spider_eye
-scoreboard objectives add pickupMutton stat.pickup.minecraft.cooked_mutton
-scoreboard objectives add pickupFish stat.pickup.minecraft.cooked_fish
-scoreboard objectives add pickupPie stat.pickup.minecraft.pumpkin_pie
-scoreboard objectives add pickupPotato stat.pickup.minecraft.baked_potato
+scoreboard objectives add pickupFood stat.pickup.minecraft.cooked_beef
+scoreboard objectives add Food dummy
 scoreboard objectives add pickupGlass stat.pickup.minecraft.glass
 
 # Remove Scoreboard Teams

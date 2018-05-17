@@ -52,13 +52,14 @@ mk.class.noteam=You must select a team before selecting a kit.
 
 mk.class=Kit: %s
 mk.class.elytra.description=[Elytra] and [Fireworks] * 4
-mk.class.pearl.description=[Ender Pearl] * 3
+mk.class.pearl.description=[Ender Pearl] * 4
 mk.class.ladder.description=[Ladder] * 16 and [Totem of Undying]
 mk.class.human.description=Nothing
 
 mk.items.refilled=Your items have been refilled!
 
 mk.spectate=Fly out of the level to return to the lobby area.
+mk.glowing=Glowing!
 
 ## SIGNS ##
 mk.team.join=%s joined %s
@@ -106,7 +107,7 @@ mk.sign.spectate2=[Right Click]
 mk.sign.spectate3=Spectate
 mk.sign.spectate4=
 
-mk.streak=+%s (%s)
+mk.streak=+%s (Total: %s)
 
 ## Advancements ##
 mk.advancement.visibility=Visiblity
