@@ -5,24 +5,12 @@ execute @e[type=villager_golem,name=James,tag=AbleToBank] ~ ~ ~ scoreboard playe
 
 # BankSamples
 execute @a[tag=HasOresToBank] ~ ~ ~ scoreboard players set @p bankedCurrent 0
-execute @a[tag=HasOresToBank] ~ ~ ~ scoreboard players operation @p bankedCurrent = @p holdingEye
-execute @a[tag=HasOresToBank] ~ ~ ~ scoreboard players operation @p bankedCurrent += @p holdingMutton
-execute @a[tag=HasOresToBank] ~ ~ ~ scoreboard players operation @p bankedCurrent += @p holdingFish
-execute @a[tag=HasOresToBank] ~ ~ ~ scoreboard players operation @p bankedCurrent += @p holdingPie
-execute @a[tag=HasOresToBank] ~ ~ ~ scoreboard players operation @p bankedCurrent += @p holdingPotato
+execute @a[tag=HasOresToBank] ~ ~ ~ scoreboard players operation @p bankedCurrent = @p holdingTotal
 execute @a[tag=HasOresToBank] ~ ~ ~ scoreboard players operation @p bankedTotal += @p bankedCurrent
 
-clear @a[tag=HasOresToBank] minecraft:spider_eye
-clear @a[tag=HasOresToBank] minecraft:cooked_mutton
-clear @a[tag=HasOresToBank] minecraft:cooked_fish
-clear @a[tag=HasOresToBank] minecraft:pumpkin_pie
-clear @a[tag=HasOresToBank] minecraft:baked_potato
+clear @a[tag=HasOresToBank] minecraft:cooked_beef
 
-scoreboard players set @a[tag=HasOresToBank] holdingEye 0
-scoreboard players set @a[tag=HasOresToBank] holdingMutton 0
-scoreboard players set @a[tag=HasOresToBank] holdingFish 0
-scoreboard players set @a[tag=HasOresToBank] holdingPie 0
-scoreboard players set @a[tag=HasOresToBank] holdingPotato 0
+scoreboard players set @a[tag=HasOresToBank] holdingTotal 0
 
 execute @a[tag=HasOresToBank,score_bankedCurrent_min=1] ~ ~ ~ playsound minecraft:entity.villager.yes master @p
 execute @a[tag=HasOresToBank,score_bankedCurrent=0] ~ ~ ~ playsound minecraft:entity.villager.no master @p
