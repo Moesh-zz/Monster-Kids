@@ -25,7 +25,7 @@ scoreboard players tag @a[tag=Glowing] remove StartGlowing
 # Title stays for 6 seconds, fades out over 3.5 seconds.
 # Additional 0.5 is to avoid blinking in
 title @a[tag=ReannounceScore] times 0 120 70
-execute @a[tag=ReannounceScore] ~ ~ ~ title @s subtitle {"translate":"mk.streak","color":"aqua","with":[{"score":{"name":"@s","objective":"displayStreak"}},{"score":{"name":"@s","objective":"Score"}}]}
+execute @a[tag=ReannounceScore] ~ ~ ~ title @s subtitle {"translate":"mk.streak","color":"aqua","with":[{"score":{"name":"@s","objective":"displayStreak"}},{"score":{"name":"@s","objective":"holdingTotal"}}]}
 title @a[tag=ReannounceScore] title {"text":" "}
 scoreboard players tag @a[tag=ReannounceScore] remove ReannounceScore
 
