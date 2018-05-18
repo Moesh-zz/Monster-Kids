@@ -107,7 +107,7 @@ mk.sign.spectate2=[Right Click]
 mk.sign.spectate3=Spectate
 mk.sign.spectate4=
 
-mk.streak=+%s (Total: %s)
+mk.streak=+%s (Holding: %s)
 
 ## Advancements ##
 mk.advancement.visibility=Visiblity
