@@ -3,6 +3,9 @@ function monster_kids:game/build_ladder
 function monster_kids:game/convert_drops
 function monster_kids:game/scores
 function monster_kids:game/ore_pickup_counter
+
+function monster_kids:game/make_forgotten_ores_glow
+
 function monster_kids:game/mining_effects/apply_effects
 function monster_kids:game/mining_effects/determine_effect_level
 
