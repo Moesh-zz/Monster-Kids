@@ -15,6 +15,8 @@ execute @e[type=area_effect_cloud,name=Main,tag=NoPlayersAvailable] ~ ~ ~ scoreb
 scoreboard players tag @a[tag=ClassElytra] remove NoClassSelected
 scoreboard players tag @a[tag=ClassLadder] remove NoClassSelected
 scoreboard players tag @a[tag=ClassPearl] remove NoClassSelected
+scoreboard players tag @a[m=3] remove NoClassSelected
+scoreboard players tag @a[team=lobby] remove NoClassSelected
 execute @e[type=area_effect_cloud,name=Main,tag=StartRound] ~ ~ ~ testfor @a[tag=NoClassSelected]
 scoreboard players tag @e[type=area_effect_cloud,name=Main,score_SuccessCount_min=1] remove StartRound
 execute @e[type=area_effect_cloud,name=Main,score_SuccessCount_min=1] ~ ~ ~ tellraw @a {"translate":"mk.error.gameStartAborted","color":"red","with":[{"translate":"mk.error.gameStart.missingItems","with":[{"selector":"@a[tag=NoClassSelected]"}]}]}
