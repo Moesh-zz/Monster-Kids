@@ -73,7 +73,7 @@ scoreboard objectives add mineEmerald stat.mineBlock.minecraft.emerald_ore
 scoreboard objectives add mineLapis stat.mineBlock.minecraft.lapis_ore
 scoreboard objectives add mineRedstone stat.mineBlock.minecraft.redstone_ore
 
-scoreboard objectives add holdingTotal dummy
+scoreboard objectives add holdingTotal dummy Food
 scoreboard objectives setdisplay belowName holdingTotal
 scoreboard objectives setdisplay list holdingTotal
 
