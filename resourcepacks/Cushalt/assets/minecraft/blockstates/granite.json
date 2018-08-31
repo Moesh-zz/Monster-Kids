@@ -1,14 +1,14 @@
 {
 	"variants": {
-		"normal": [
-			{ "model": "granite" },
-			{ "model": "granite", "y": 90 },
-			{ "model": "granite", "y": 180 },
-			{ "model": "granite", "y": 270 },
-			{ "model": "granite_mirrored" },
-			{ "model": "granite_mirrored", "y": 90 },
-			{ "model": "granite_mirrored", "y": 180 },
-			{ "model": "granite_mirrored", "y": 270 }
+		"": [
+			{ "model": "block/granite" },
+			{ "model": "block/granite", "y": 90 },
+			{ "model": "block/granite", "y": 180 },
+			{ "model": "block/granite", "y": 270 },
+			{ "model": "block/granite_mirrored" },
+			{ "model": "block/granite_mirrored", "y": 90 },
+			{ "model": "block/granite_mirrored", "y": 180 },
+			{ "model": "block/granite_mirrored", "y": 270 }
 		]
 	}
 }

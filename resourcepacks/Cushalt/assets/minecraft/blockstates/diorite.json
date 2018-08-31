@@ -1,14 +1,14 @@
 {
 	"variants": {
-		"normal": [
-			{ "model": "diorite" },
-			{ "model": "diorite", "y": 90 },
-			{ "model": "diorite", "y": 180 },
-			{ "model": "diorite", "y": 270 },
-			{ "model": "diorite_mirrored" },
-			{ "model": "diorite_mirrored", "y": 90 },
-			{ "model": "diorite_mirrored", "y": 180 },
-			{ "model": "diorite_mirrored", "y": 270 }
+		"": [
+			{ "model": "block/diorite" },
+			{ "model": "block/diorite", "y": 90 },
+			{ "model": "block/diorite", "y": 180 },
+			{ "model": "block/diorite", "y": 270 },
+			{ "model": "block/diorite_mirrored" },
+			{ "model": "block/diorite_mirrored", "y": 90 },
+			{ "model": "block/diorite_mirrored", "y": 180 },
+			{ "model": "block/diorite_mirrored", "y": 270 }
 		]
 	}
 }

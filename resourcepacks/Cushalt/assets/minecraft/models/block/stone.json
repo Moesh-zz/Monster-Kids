@@ -1,8 +1,8 @@
 {
     "parent": "block/cube_column",
     "textures": {
-        "particle": "blocks/stone",
-        "end": "blocks/stone_end",
-        "side": "blocks/stone"
+        "particle": "block/stone",
+        "end": "block/stone_end",
+        "side": "block/stone"
     }
 }

@@ -2,9 +2,9 @@
 	"__comment": "Designed by Moesh with Cubik Studio - https://cubik.studio",
 	"parent": "block/cross",
 	"textures": {
-		"mushroom": "blocks/mob_spawner_flower",
-		"case": "blocks/mob_spawner_case",
-		"particle": "blocks/mob_spawner_case"
+		"mushroom": "block/mob_spawner_flower",
+		"case": "block/mob_spawner_case",
+		"particle": "block/mob_spawner_case"
 	},
 	"elements": [
 		{

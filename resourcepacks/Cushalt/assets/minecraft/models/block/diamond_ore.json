@@ -1,8 +1,8 @@
 {
     "parent": "block/cube_column",
     "textures": {
-        "particle": "blocks/diamond_ore",
-        "end": "blocks/diamond_ore_end",
-        "side": "blocks/diamond_ore"
+        "particle": "block/diamond_ore",
+        "end": "block/diamond_ore_end",
+        "side": "block/diamond_ore"
     }
 }

@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "items/beef_cooked"
+        "layer0": "item/beef_cooked"
     },
     "display": {
         "ground": {

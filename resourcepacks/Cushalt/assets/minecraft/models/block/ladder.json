@@ -2,8 +2,8 @@
 	"__comment": "Designed by @leMoesh with Cubik Studio - https://cubik.studio",
 	"parent": "block/block",
 	"textures": {
-		"ladder": "blocks/ladder",
-		"particle": "blocks/ladder"
+		"ladder": "block/ladder",
+		"particle": "block/ladder"
 	},
 	"elements": [
 		{

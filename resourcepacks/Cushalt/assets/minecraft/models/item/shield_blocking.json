@@ -1,7 +1,7 @@
 {
 	"__comment": "Designed by Moesh with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"atlas": "items/claw/claw_shield_atlas"
+		"atlas": "item/claw/claw_shield_atlas"
 	},
 	"elements": [
 		{

@@ -2,9 +2,9 @@
 	"__comment": "Designed by Moesh with Cubik Studio - https://cubik.studio",
 	"parent": "block/block",
 	"textures": {
-		"particle": "blocks/scaffold_end",
-		"side": "blocks/scaffold_side",
-		"end": "blocks/scaffold_end"
+		"particle": "block/scaffold_end",
+		"side": "block/scaffold_side",
+		"end": "block/scaffold_end"
 	},
 	"elements": [
 		{
