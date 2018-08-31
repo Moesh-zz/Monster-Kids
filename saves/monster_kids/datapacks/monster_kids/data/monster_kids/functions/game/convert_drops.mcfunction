@@ -1,0 +1,76 @@
+# Convert ore to food
+tag @e[type=minecraft:item] add ConvertToFood {Item:{id:"minecraft:coal"}}
+tag @e[type=minecraft:item] add ConvertToFood {Item:{id:"minecraft:charcoal"}}
+tag @e[type=minecraft:item] add ConvertToFood {Item:{id:"minecraft:diamond"}}
+tag @e[type=minecraft:item] add ConvertToFood {Item:{id:"minecraft:emerald"}}
+tag @e[type=minecraft:item] add ConvertToFood {Item:{id:"minecraft:lapis_lazuli"}}
+tag @e[type=minecraft:item] add ConvertToFood {Item:{id:"minecraft:redstone"}}
+tag @e[type=minecraft:item] add ConvertToFood {Item:{id:"minecraft:quartz"}}
+data merge entity @e[type=minecraft:item,tag=ConvertToFood] {Item:{id:"minecraft:cooked_beef"}}
+tag @e[type=minecraft:item,tag=ConvertToFood] remove ConvertToFood {Item:{id:"minecraft:cooked_beef"}}
+
+# Convert all non-food drops to glass
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:bedrock"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:cobblestone"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:dirt"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:coarse_dirt"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:podzol"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:glowstone_dust"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:nether_bricks"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:nether_brick_fence"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:nether_brick_stairs"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:netherrack"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:prismarine_crystals"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:purpur_block"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:purpur_pillar"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:redstone_lamp"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:white_terracotta"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:orange_terracotta"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:magenta_terracotta"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:light_blue_terracotta"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:yellow_terracotta"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:lime_terracotta"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:pink_terracotta"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:gray_terracotta"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:light_gray_terracotta"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:cyan_terracotta"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:purple_terracotta"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:blue_terracotta"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:brown_terracotta"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:green_terracotta"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:red_terracotta"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:black_terracotta"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:stone"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:diorite"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:polished_diorite"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:granite"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:polished_granite"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:andesite"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:polished_andesite"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:stone_slab"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:cobblestone_slab"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:sandstone_slab"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:petrified_oak_slab"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:brick_slab"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:stone_brick_slab"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:nether_brick_slab"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:quartz_slab"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:smooth_stone"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:smooth_sandstone"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:smooth_quartz"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:stone_bricks"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:cracked_stone_bricks"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:mossy_stone_bricks"}}
+tag @e[type=minecraft:item] add ConvertToGlass {Item:{id:"minecraft:chiseled_stone_bricks"}}
+data merge entity @e[type=minecraft:item,tag=ConvertToGlass] {Item:{id:"minecraft:glass"}}
+tag @e[type=minecraft:item,tag=ConvertToGlass] remove ConvertToGlass {Item:{id:"minecraft:glass"}}
+
+# Kill banned pick-up items and kill experience orbs
+tag @e[type=minecraft:item] add KillItem {Item:{id:"minecraft:elytra"}}
+tag @e[type=minecraft:item] add KillItem {Item:{id:"minecraft:ender_pearl"}}
+tag @e[type=minecraft:item] add KillItem {Item:{id:"minecraft:firework_rocket"}}
+tag @e[type=minecraft:item] add KillItem {Item:{id:"minecraft:ladder"}}
+tag @e[type=minecraft:item] add KillItem {Item:{id:"minecraft:slime"}}
+tag @e[type=minecraft:item] add KillItem {Item:{id:"minecraft:torch"}}
+kill @e[type=minecraft:item,tag=KillItem]
+kill @e[type=minecraft:experience_orb]
