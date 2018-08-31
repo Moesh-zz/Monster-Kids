@@ -56,6 +56,7 @@ See also the list of [contributors](https://github.com/Moesh/monster-kids/graphs
 
 ## Acknowledgments
 
-* Thanks to Marc Watson, who greenlit the project
-* Thanks to shadekirby, vilder50, and every other builder who hopped into work on an early draft of moeshmk1
+* Thanks to [Marc Watson](http://twitter.com/Marc_IRL), who greenlit the project
+* [Adrian Brightmoore](https://twitter.com/abrightmoore), who made the MCEdit filters used as a base for this project.
+* Thanks to [shadekirby](https://twitter.com/shadekirby321), [vilder50](https://twitter.com/vilder50), and every other builder who hopped into work on an early draft of moeshmk1
 * Thank you to the Realms map makers who helped test and polish this project
