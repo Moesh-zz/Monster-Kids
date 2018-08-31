@@ -1,4 +1,4 @@
-# Project Title
+# Monster Kids
 
 Monster Kids is a competitive caving game. Players gain status effects for their team when digging blocks. They gain points by picking up the food which drops. They win by having the most food at 
 
@@ -9,15 +9,9 @@ Getting a release copy of Monster Kids up and running is fairly straight-foward,
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+* Minecraft: Java Edition
 
 ### Installing
-
-A step by step series of examples that tell you have to get a development env running
 
 * Choose a folder to clone this project into and do so
 * Open your Minecraft launcher and select "Launch options"
@@ -41,7 +35,7 @@ The map is now ready to be played.
 
 ## Built With
 
-Please note I will not provide support for setting up and working with these tools. They are definitely not user-friendly.
+Please note I will not provide support for setting up and working with these tools. Some are not very user-friendly.
 
 * [Adobe Photoshop CC](http://www.adobe.com/products/photoshop.html) - Used to create all textures
 * [Cubik Studio](https://cubik.studio/) - Used to create the custom claw models
@@ -53,14 +47,6 @@ Please note I will not provide support for setting up and working with these too
 * [Sponge](https://www.spongepowered.org/) - Used to host a modded server for plugins
 	* [VoxelSniper](https://forums.spongepowered.org/t/voxelsniper-long-range-terrain-editing-v8-0-0-1-8-9-1-10-2/10695) - Used to place blocks, shape the level, and paint over the colors into the map
 	* [WorldEdit for SpongeAPI](https://forums.spongepowered.org/t/worldedit-for-spongeapi/13361) - Used to in-game, large scale block editing and copy/pasting cuboid selections.
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
