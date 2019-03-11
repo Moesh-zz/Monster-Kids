@@ -1,6 +1,6 @@
 # Monster Kids
 
-Monster Kids is a competitive caving game. Players gain status effects for their team when digging blocks. They gain points by picking up the food which drops. They win by having the most food at 
+Monster Kids is a competitive caving game. Players gain status effects for their team when digging blocks. They gain points by picking up the food which drops. They win by having the most food at the end of 10 minutes.
 
 ## Getting Started
 
